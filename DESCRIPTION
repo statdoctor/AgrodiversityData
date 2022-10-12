@@ -1,12 +1,19 @@
 Package: Agrodiversitydata
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Type: Package
+Title: Datasets of Agrodiversity experiment in 17 countries
+Version: 1.0
+Date: 11-10-2022
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Litty", "Mathew", , "littymathew1996@gmail.com", role = c("aut", "cre"),
+           )
+Suggests: dplyr           
+Description: Combine all data sets of the agrodiversity experiment, a multi site, multi year project. 
+    It is an experiment with 30 plots was established at 28 sites in 17 countries in Europe in 2002 or 2003. 
+    At each site two legume and two grass species were sown. 
+    One of the grass and one of the legume species was fast establishing and the other was slow establishing.
+    Five species-groups were used: We used a simplex design to define four monocultures and 11 mixtures of the four species.
+Details: It has datasets like biomass,biomass_summary, climate, soil density, site information and forage quality.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
