@@ -1,9 +1,8 @@
 #' Agrodiversitydata:  Datasets of agrodiversity experiment.
 #'
-#'@section Agrodiversity experiment: A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities. 
+#'@description  Agrodiversity experiment: A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities. 
 #' 
-#'
-#'
+#'#'
 #' @section Details: 
 #' 
 #'  The package Agrodiversitydata provides six datasets:  Useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification. 
