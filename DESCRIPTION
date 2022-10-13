@@ -3,9 +3,9 @@ Type: Package
 Title: Datasets of Agrodiversity experiment in 17 countries
 Version: 1.0
 Date: 11-10-2022
-Authors@R: 
-    person("Litty", "Mathew", , "littymathew1996@gmail.com", role = c("aut", "cre"),
-           )
+Authors@R: c(
+    person("Litty", "Mathew", , "littymathew1996@gmail.com", role = c("aut", "cre")),
+    person("Caroline", "Brophy", , "caroline.brophy@tcd.ie", role = "aut"))
 Suggests: dplyr           
 Description: Combine all data sets of the agrodiversity experiment, a multi site, multi year project. 
     It is an experiment with 30 plots was established at 28 sites in 17 countries in Europe in 2002 or 2003. 

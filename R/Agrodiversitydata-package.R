@@ -1,10 +1,10 @@
 #' Agrodiversitydata:  Datasets of agrodiversity experiment.
 #'
-#'@description The package Agrodiversitydata provides six datasets of Agrodiversity experiment. 
+#'@description The package \code{Agrodiversitydata} provides six datasets of Agrodiversity experiment. 
 #'    It is  Useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification. 
 #'
 #'@section Agrodiversity Experiment: 
-#'A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities. 
+#'A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities across 17 countries. 
 #'   
 #'
 #' @section Details of Datasets: 
@@ -21,12 +21,12 @@
 #'
 #' 6. \code{\link{agrobiosum}}: Species-specific biomass measurements (yield per species and of weeds) at 33 sites summarized by year.
 #' 
-#'@seealso For More information about data :<https://t-stor.teagasc.ie/handle/11019/774>
+#'@seealso For more information about data :<https://t-stor.teagasc.ie/handle/11019/774>
 #'
 #'
 #'@section Examples: 
 #'
-#' To load agrobiomass data
+#' To load \code{agrobiomass} data
 #' 
 #'data(agrobiomass)
 #'

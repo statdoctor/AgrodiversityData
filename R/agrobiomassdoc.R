@@ -1,6 +1,6 @@
 #' Biomass data of the Agrodiversity experiment
 #'
-#'Biomass dataset provide information about the species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
+#'The \code{agrobiomass} dataset provide information about the species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
 #' @format A dataframe with 15372 rows and 22 variables:
 #' \describe{
 #'   \item{SITE}{Site ID number}
@@ -27,4 +27,11 @@
 #'   \item{HARV_YIELD}{Total Harvest Dry Matter Yield}
 #'}
 #' @source <https://repositori.udl.cat/handle/10459.1/60560>
+
+#' @section References:
+#' 
+#'Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C. and Dalmannsdottir, S., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530-539.
+#'
+#'Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R.P., Čop, J., Delgado, I. and De Vliegher, A., 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 2014, vol. 95, num. 9, p. 2680-2680.
+
 "agrobiomass"

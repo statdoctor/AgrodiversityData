@@ -5,12 +5,12 @@
 \alias{Agrodiversitydata}
 \title{Agrodiversitydata:  Datasets of agrodiversity experiment.}
 \description{
-The package Agrodiversitydata provides six datasets of Agrodiversity experiment.
+The package \code{Agrodiversitydata} provides six datasets of Agrodiversity experiment.
 It is  Useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification.
 }
 \section{Agrodiversity Experiment}{
 
-A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities.
+A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities across 17 countries.
 }
 
 \section{Details of Datasets}{
@@ -28,7 +28,7 @@ A coordinated, continental-scale 33 site experiment that investigated plant dive
 \section{Examples}{
 
 
-To load agrobiomass data
+To load \code{agrobiomass} data
 
 data(agrobiomass)
 }
@@ -41,5 +41,5 @@ Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., 
 }
 
 \seealso{
-For More information about data :\url{https://t-stor.teagasc.ie/handle/11019/774}
+For more information about data :\url{https://t-stor.teagasc.ie/handle/11019/774}
 }
