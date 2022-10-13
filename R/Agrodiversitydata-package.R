@@ -1,7 +1,7 @@
 #' Agrodiversitydata:  Datasets of agrodiversity experiment.
 #'
 #'@description The package \code{Agrodiversitydata} provides six datasets of Agrodiversity experiment. 
-#'    It is  Useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification. 
+#'    It is  useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification. 
 #'
 #'@section Agrodiversity Experiment: 
 #'A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities across 17 countries. 
@@ -21,14 +21,28 @@
 #'
 #' 6. \code{\link{agrobiosum}}: Species-specific biomass measurements (yield per species and of weeds) at 33 sites summarized by year.
 #' 
-#'@seealso For more information about data :<https://t-stor.teagasc.ie/handle/11019/774>
+#'@examples 
 #'
-#'
-#'@section Examples: 
-#'
-#' To load \code{agrobiomass} data
+#'  ## Work with agrobiomass dataset
+#'     library(Agrodiversitydata)
 #' 
-#'data(agrobiomass)
+#'  ## Load the data
+#'     data(agrobiomass)
+#'  
+#'  ## To see the data structure
+#'     str(agrobiomass)
+#'  
+#'  ## To get summary statistics of Total harvest Yield
+#'     summary(agrobiomass$HARV_YIELD)
+#'  
+#'  ## To check the normality of the data
+#'     qqnorm(agrobiomass$HARV_YIELD)
+#'  
+#'  ## To check whether mean yield is same for High and Low seed densities.
+#'     t.test(agrobiomass$HARV_YIELD~agrobiomass$DENS)
+#'
+#'
+#'@seealso For more information about data :<https://t-stor.teagasc.ie/handle/11019/774>
 #'
 #' @section References:
 #'Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C. and Dalmannsdottir, S., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530-539.

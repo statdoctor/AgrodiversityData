@@ -6,7 +6,7 @@
 \title{Agrodiversitydata:  Datasets of agrodiversity experiment.}
 \description{
 The package \code{Agrodiversitydata} provides six datasets of Agrodiversity experiment.
-It is  Useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification.
+It is  useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification.
 }
 \section{Agrodiversity Experiment}{
 
@@ -25,14 +25,6 @@ A coordinated, continental-scale 33 site experiment that investigated plant dive
 }
 }
 
-\section{Examples}{
-
-
-To load \code{agrobiomass} data
-
-data(agrobiomass)
-}
-
 \section{References}{
 
 Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C. and Dalmannsdottir, S., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530-539.
@@ -40,6 +32,28 @@ Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu,
 Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R.P., Čop, J., Delgado, I. and De Vliegher, A., 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 2014, vol. 95, num. 9, p. 2680-2680.
 }
 
+\examples{
+
+ ## Work with agrobiomass dataset
+    library(Agrodiversitydata)
+
+ ## Load the data
+    data(agrobiomass)
+ 
+ ## To see the data structure
+    str(agrobiomass)
+ 
+ ## To get summary statistics of Total harvest Yield
+    summary(agrobiomass$HARV_YIELD)
+ 
+ ## To check the normality of the data
+    qqnorm(agrobiomass$HARV_YIELD)
+ 
+ ## To check whether mean yield is same for High and Low seed densities.
+    t.test(agrobiomass$HARV_YIELD~agrobiomass$DENS)
+
+
+}
 \seealso{
 For more information about data :\url{https://t-stor.teagasc.ie/handle/11019/774}
 }
