@@ -5,14 +5,16 @@
 \alias{Agrodiversitydata}
 \title{Agrodiversitydata:  Datasets of agrodiversity experiment.}
 \description{
-Agrodiversity experiment: A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities.
-
-#'
+The package Agrodiversitydata provides six datasets of Agrodiversity experiment.
+It is  Useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification.
 }
-\section{Details}{
+\section{Agrodiversity Experiment}{
 
+A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities.
+}
 
-The package Agrodiversitydata provides six datasets:  Useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification.
+\section{Details of Datasets}{
+
 \enumerate{
 \item \code{\link{agrosite}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc. .
 \item \code{\link{agroclimate}}: Information about daily temperature and precipitation for each site.

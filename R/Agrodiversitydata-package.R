@@ -1,12 +1,14 @@
 #' Agrodiversitydata:  Datasets of agrodiversity experiment.
 #'
-#'@description  Agrodiversity experiment: A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities. 
+#'@description The package Agrodiversitydata provides six datasets of Agrodiversity experiment. 
+#'    It is  Useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification. 
+#'
+#'@section Agrodiversity Experiment: 
+#'A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities. 
+#'   
+#'
+#' @section Details of Datasets: 
 #' 
-#'#'
-#' @section Details: 
-#' 
-#'  The package Agrodiversitydata provides six datasets:  Useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification. 
-#'  
 #' 1. \code{\link{agrosite}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc. .
 #'
 #' 2. \code{\link{agroclimate}}: Information about daily temperature and precipitation for each site.
