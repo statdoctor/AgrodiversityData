@@ -1,8 +1,8 @@
 ## code to prepare `Forage quality` dataset goes here
-soil_raw<-readr::read_csv("data-raw/soils.csv")
+soil_raw<-readr::read_csv("data-raw/Soil.csv")
 head(soil_raw)
-agrosoil<-soil_raw
-usethis::use_data(agrosoil, overwrite = TRUE)
+Soil<-soil_raw
+usethis::use_data(Soil, overwrite = TRUE)
 #To add data documentation
 View(soil_raw)
 

@@ -1,5 +1,5 @@
 ## code to prepare `DATASET` dataset goes here
-climate_raw<-readr::read_csv("data-raw/climate.csv")
+climate_raw<-readr::read_csv("data-raw/Climate.csv")
 head(climate_raw)
-agroclimate<-climate_raw
-usethis::use_data(agroclimate,overwrite = T)
+Climate<-climate_raw
+usethis::use_data(Climate,overwrite = T)

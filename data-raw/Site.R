@@ -1,9 +1,9 @@
 ## code to prepare `Forage quality` dataset goes here
-site_raw<-readr::read_csv("data-raw/site_info.csv")
+site_raw<-readr::read_csv("data-raw/Site.csv")
 head(site_raw)
-agrosite<-site_raw
-usethis::use_data(agrosite, overwrite = TRUE)
-usethis::use_r("agrosite")
+Site<-site_raw
+usethis::use_data(Site, overwrite = TRUE)
+usethis::use_r("Site")
 #To add data documentation
 View(site_raw)
 
