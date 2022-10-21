@@ -6,8 +6,6 @@
 #'   \item{SITE}{Site ID number}
 #'   \item{Country}{Country}
 #'   \item{	Location}{Location of site within country}
-#'   \item{Institute}{Institute responsible for site}
-#'   \item{Contact Email}{Contact email of individual responsible for site}
 #'   \item{Lat_Deg}{Location of site (Latitude degrees)}
 #'   \item{Lat_Min}{Location of site (Latitude minutes)}
 #'  \item{Lat_NS}{Location of site (Latitude North South)}
