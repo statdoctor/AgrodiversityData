@@ -1,6 +1,6 @@
-#' Agrodiversitydata:  Datasets of agrodiversity experiment.
+#' AgrodiversityData:  Datasets of agrodiversity experiment.
 #'
-#'@description The package \code{Agrodiversitydata} provides six datasets of Agrodiversity experiment. 
+#'@description The package \code{AgrodiversityData} provides six datasets of Agrodiversity experiment. 
 #'    It is  useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification. 
 #'
 #'@section Agrodiversity Experiment: 
@@ -9,37 +9,37 @@
 #'
 #' @section Details of Datasets: 
 #' 
-#' 1. \code{\link{agrosite}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc. .
+#' 1. \code{\link{Site}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc. .
 #'
-#' 2. \code{\link{agroclimate}}: Information about daily temperature and precipitation for each site.
+#' 2. \code{\link{Climate}}: Information about daily temperature and precipitation for each site.
 #'
-#' 3. \code{\link{agrosoil}}: The soil characteristics and concentration of soil nutrients for each site.
+#' 3. \code{\link{Soil}}: The soil characteristics and concentration of soil nutrients for each site.
 #'
-#' 4. \code{\link{agrobiomass}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
+#' 4. \code{\link{Biomass}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
 #' 
-#' 5. \code{\link{agroforage}}: Details about forage quality.
+#' 5. \code{\link{Forage}}: Details about forage quality.
 #'
-#' 6. \code{\link{agrobiosum}}: Species-specific biomass measurements (yield per species and of weeds) at 33 sites summarized by year.
+#' 6. \code{\link{Biosum}}: Species-specific biomass measurements (yield per species and of weeds) at 33 sites summarized by year.
 #' 
 #'@examples 
 #'
-#'  ## Work with agrobiomass dataset
-#'     library(Agrodiversitydata)
+#'  ## Work with Biomass dataset
+#'     library(AgrodiversityData)
 #' 
 #'  ## Load the data
-#'     data(agrobiomass)
+#'     data(Biomass)
 #'  
 #'  ## To see the data structure
-#'     str(agrobiomass)
+#'     str(Biomass)
 #'  
 #'  ## To get summary statistics of Total harvest Yield
-#'     summary(agrobiomass$HARV_YIELD)
+#'     summary(Biomass$HARV_YIELD)
 #'  
 #'  ## To check the normality of the data
-#'     qqnorm(agrobiomass$HARV_YIELD)
+#'     qqnorm(Biomass$HARV_YIELD)
 #'  
 #'  ## To check whether mean yield is same for High and Low seed densities.
-#'     t.test(agrobiomass$HARV_YIELD~agrobiomass$DENS)
+#'     t.test(Biomass$HARV_YIELD~Biomass$DENS)
 #'
 #'
 #'@seealso For more information about data :<https://t-stor.teagasc.ie/handle/11019/774>
@@ -49,6 +49,6 @@
 #'
 #'Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R.P., Čop, J., Delgado, I. and De Vliegher, A., 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 2014, vol. 95, num. 9, p. 2680-2680.
 #' @docType package
-#' @name Agrodiversitydata
+#' @name AgrodiversityData
 NULL
 

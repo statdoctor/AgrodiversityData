@@ -1,6 +1,6 @@
 #' Forage quality data of the Agrodiversity experiment
 #'
-#'The \code{agroforage} dataset provides details about forage quality per site.
+#'The \code{Forage} dataset provides details about forage quality per site.
 #'     The primary forage quality analysis was carried out at the Christian-Albrechts-Universität Kiel, Kiel, Germany.
 #'     Additional analysis for four North European sites was carried out at Agriculture and Agrifood Canada at Levis, Canada. 
 #'     In addition, N concentration of bulk samples was locally analyzed by 21 sites. 
@@ -78,4 +78,4 @@
 #'Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C. and Dalmannsdottir, S., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530-539.
 #'
 #'Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R.P., Čop, J., Delgado, I. and De Vliegher, A., 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 2014, vol. 95, num. 9, p. 2680-2680.
-"agroforage"
+"Forage"

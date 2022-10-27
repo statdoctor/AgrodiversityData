@@ -1,6 +1,6 @@
 #' Climate data of the Agrodiversity experiment
 #'
-#' The \code{agroclimate} dataset has information about  daily climate data for each site for the duration of the experiment. 
+#' The \code{Climate} dataset has information about  daily climate data for each site for the duration of the experiment. 
 #'    The climate data series begins on the sowing date of the experiment at each site.
 #'    The variables include daily temperatures and precipitation.
 #'
@@ -23,4 +23,4 @@
 #'Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C. and Dalmannsdottir, S., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530-539.
 #'
 #'Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R.P., Čop, J., Delgado, I. and De Vliegher, A., 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 2014, vol. 95, num. 9, p. 2680-2680.
-"agroclimate"
+"Climate"
