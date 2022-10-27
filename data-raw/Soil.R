@@ -4,6 +4,7 @@ head(soil_raw)
 Soil<-soil_raw
 usethis::use_data(Soil, overwrite = TRUE)
 #To add data documentation
+usethis::use_r("Soil")
 View(soil_raw)
 
 

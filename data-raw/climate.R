@@ -7,5 +7,5 @@ Climate <- Climate %>%
   mutate(DATE = as.Date(DATE, format = "%d-%b-%y"))
 Climate<-climate_raw[!apply(climate_raw == "", 1, all),]
 usethis::use_data(Climate,overwrite = T)
-
+usethis::use_r("Climate")
 

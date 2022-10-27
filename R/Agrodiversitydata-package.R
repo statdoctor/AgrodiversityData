@@ -1,3 +1,7 @@
+# All data documentation for my datasets in agrodiversityData
+
+# package documentatin: AgrodiversityData-package.R
+
 #' AgrodiversityData:  Datasets of agrodiversity experiment.
 #'
 #'@description The package \code{AgrodiversityData} provides six datasets of Agrodiversity experiment. 
@@ -51,4 +55,3 @@
 #' @docType package
 #' @name AgrodiversityData
 NULL
-
