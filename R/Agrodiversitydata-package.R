@@ -1,7 +1,3 @@
-# All data documentation for my datasets in agrodiversityData
-
-# package documentatin: AgrodiversityData-package.R
-
 #' AgrodiversityData:  Datasets of agrodiversity experiment.
 #'
 #'@description The package \code{AgrodiversityData} provides six datasets of Agrodiversity experiment. 
@@ -46,12 +42,25 @@
 #'     t.test(Biomass$HARV_YIELD~Biomass$DENS)
 #'
 #'
-#'@seealso For more information about data :<https://t-stor.teagasc.ie/handle/11019/774>
+#'@seealso Data source :<https://doi.org/10.6084/m9.figshare.3560352.v1>
 #'
 #' @section References:
-#'Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C. and Dalmannsdottir, S., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530-539.
+#' 1. Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C. and Dalmannsdottir, S., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530-539.
 #'
-#'Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R.P., Čop, J., Delgado, I. and De Vliegher, A., 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 2014, vol. 95, num. 9, p. 2680-2680.
+#' 2.	Kirwan, L., Connolly, J., Finn, J.A., Brophy, C., Lüscher, A., Nyfeler, D. and Sebastià, M.T., 2009. Diversity–interaction modeling: estimating contributions of species identities and interactions to ecosystem function. Ecology, 90(8), pp.2032-2038.
+#' 
+#' 3.	Connolly, J., Bell, T., Bolger, T., Brophy, C., Carnus, T., Finn, J.A., Kirwan, L., Isbell, F., Levine, J., Lüscher, A. and Picasso, V., 2013. An improved model to predict the effects of changing biodiversity levels on ecosystem function. Journal of Ecology, 101(2), pp.344-355.
+#' 
+#' 4. Finn, J.A., Kirwan, L., Connolly, J., Sebastià, M.T., Helgadottir, A., Baadshaug, O.H., Bélanger, G., Black, A., Brophy, C., Collins, R.P. and Čop, J., 2013. Ecosystem function enhanced by combining four functional types of plant species in intensively managed grassland mixtures: a 3‐year continental‐scale field experiment. Journal of Applied Ecology, 50(2), pp.365-375.
+#' 
+#' 5. Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680. 
+#'
+#' 6.	Dooley, Á., Isbell, F., Kirwan, L., Connolly, J., Finn, J.A. and Brophy, C., 2015. Testing the effects of diversity on ecosystem multifunctionality using a multivariate model. Ecology Letters, 18(11), pp.1242-1251.
+#'
+#' 7. Brophy, C., Dooley, Á., Kirwan, L., Finn, J.A., McDonnell, J., Bell, T., Cadotte, M.W. and Connolly, J., 2017. Biodiversity and ecosystem function: making sense of numerous species interactions in multi‐species communities. Ecology, 98(7), pp.1771-1778.
+#'
+#' 8. Connolly, J., Sebastià, M.T., Kirwan, L., Finn, J.A., Llurba, R., Suter, M., Collins, R.P., Porqueddu, C., Helgadóttir, Á., Baadshaug, O.H. and Bélanger, G., 2018. Weed suppression greatly increased by plant diversity in intensively managed grasslands: A continental‐scale experiment. Journal of Applied Ecology, 55(2), pp.852-862.
+#' 
 #' @docType package
 #' @name AgrodiversityData
 NULL
