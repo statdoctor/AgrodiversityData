@@ -12,10 +12,10 @@ A dataframe with 39,712 rows and 9 variables:
 \item{Month}{Month of data collected}
 \item{Year}{Year of data collected}
 \item{Date}{Date}
-\item{Precip}{Daily precipitation (mm/ay)}
-\item{air_min}{Minimum daily air temperature in degree celcius}
-\item{air_mean}{Mean daily air temperature in degree celcius}
-\item{air_max}{Maximum daily air temperature in degree celcius}
+\item{Precip}{Daily precipitation (mm/day)}
+\item{air_min}{Minimum daily air temperature (°C)}
+\item{air_mean}{Mean daily air temperature (°C)}
+\item{air_max}{Maximum daily air temperature (°C)}
 }
 }
 \source{

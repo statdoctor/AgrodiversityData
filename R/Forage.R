@@ -28,47 +28,47 @@
 #'   \item{Kiel}{Indicator variable (Kiel bulk sample present=1 , absent=0)}
 #'   \item{Canada}{Indicator variable ( Canada bulk sample present=1 , absent=0)}
 #'   \item{Kiel_sep}{Indicator variable ( Kiel separated sample present=1 , absent=0)}
-#'   \item{N_L}{Nitrogen percent in total harvest yield (analysis performed by local lab) (% of dry matter)}
-#'  \item{N_K}{Nitrogen percent in total harvest yield (Kiel data)}
-#'   \item{Ash_K}{Ash in total harvest yield (Kiel data)}
-#'   \item{NDF_K}{Neutral Detergent Fibre in total harvest yield (Kiel data)}
-#'   \item{ADF_K}{Acid Detergent Fibre in total harvest yield (Kiel data)}
-#'   \item{CDOMD_K}{Cellulase Digestible of Organic Matter of Dry Matter in total harvest yield (Kiel data)}
+#'   \item{N_L}{Nitrogen percent in total harvest yield (% of dry matter) (analysis performed by local lab)}
+#'  \item{N_K}{Nitrogen percent in total harvest yield (% of dry matter) (Kiel data)}
+#'   \item{Ash_K}{Ash in total harvest yield (% of dry matter) (Kiel data)}
+#'   \item{NDF_K}{Neutral Detergent Fibre in total harvest yield (% of dry matter) (Kiel data)}
+#'   \item{ADF_K}{Acid Detergent Fibre in total harvest yield (% of dry matter) (Kiel data)}
+#'   \item{CDOMD_K}{Cellulase Digestible of Organic Matter of Dry Matter in total harvest yield (% of dry matter) (Kiel data)}
 #'  \item{ME_K}{Metabolizable Energy in total harvest yield (Kiel data) (MJ ME per kg of DM)}
-#'   \item{N_C}{Nitrogen percent in total harvest yield (Canadian data)}
-#'   \item{NDF_C}{Neutral Detergent Fibre in total harvest yield (Canadian data)}
-#'  \item{ADF_C}{Acid Detergent Fibre in total harvest yield (Canadian data)}
+#'   \item{N_C}{Nitrogen percent in total harvest yield (% of dry matter) (Canadian data)}
+#'   \item{NDF_C}{Neutral Detergent Fibre in total harvest yield (% of dry matter) (Canadian data)}
+#'  \item{ADF_C}{Acid Detergent Fibre in total harvest yield (% of dry matter) (Canadian data)}
 #'   \item{IVTD_C}{In Vitro True Digestibility in total harvest yield (Canadian data)}
 #'   \item{IVCWD_C}{In Vitro Cell Wall Digestibility in total harvest yield (Canadian data)}
-#'   \item{N_G1_K}{Nitrogen percent in G1 harvest yield (Kiel data)}
-#'   \item{Ash_G1_K}{Ash in total G1 harvest yield (Kiel data)}
-#'  \item{NDF_G1_K}{Neutral Detergent Fibre in total G1 harvest yield (Kiel data)}
-#'   \item{ADF_G1_K}{Acid Detergent Fibre in total G1 harvest yield (Kiel data)}
-#'   \item{CDOMD_G1_K}{Cellulase Digestible of Organic Matter of Dry Matter in G1 harvest yield (Kiel data)}
+#'   \item{N_G1_K}{Nitrogen percent in G1 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{Ash_G1_K}{Ash in total G1 harvest yield (% of dry matter) (Kiel data)}
+#'  \item{NDF_G1_K}{Neutral Detergent Fibre in total G1 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{ADF_G1_K}{Acid Detergent Fibre in total G1 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{CDOMD_G1_K}{Cellulase Digestible of Organic Matter of Dry Matter in G1 harvest yield (% of dry matter) (Kiel data)}
 #'  \item{ME_G1_K}{Metabolizable Energy in G1 harvest yield (Kiel data) (MJ ME per kg of DM)}
-#'   \item{N_G2_K}{Nitrogen percent in G2 harvest yield (Kiel data)}
-#'   \item{Ash_G2_K}{Ash in G2 harvest yield (Kiel data)}
-#'   \item{NDF_G2_K}{Neutral Detergent Fibre in G2 harvest yield (Kiel data)}
-#'   \item{ADF_G2_K}{Acid Detergent Fibre in G2 harvest yield (Kiel data)}
-#'  \item{CDOMD_G2_K}{Cellulase Digestible of Organic Matter of Dry Matter in G2 harvest yield (Kiel data)}
+#'   \item{N_G2_K}{Nitrogen percent in G2 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{Ash_G2_K}{Ash in G2 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{NDF_G2_K}{Neutral Detergent Fibre in G2 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{ADF_G2_K}{Acid Detergent Fibre in G2 harvest yield (% of dry matter) (Kiel data)}
+#'  \item{CDOMD_G2_K}{Cellulase Digestible of Organic Matter of Dry Matter in G2 harvest yield (% of dry matter) (Kiel data)}
 #'   \item{ME_G2_K}{Metabolizable Energy in G2 harvest yield (Kiel data) (MJ ME per kg of DM)}
-#'   \item{N_L1_K}{Nitrogen percent in L1 harvest yield (Kiel data)}
-#'   \item{Ash_L1_K}{Ash in L1 harvest yield (Kiel data)}
-#'   \item{NDF_L1_K}{Neutral Detergent Fibre in L1 harvest yield (Kiel data)}
-#'   \item{ADF_L1_K}{Acid Detergent Fibre in L1 harvest yield (Kiel data)}
-#'   \item{CDOMD_L1_K}{Cellulase Digestible of Organic Matter of Dry Matter in L1 harvest yield (Kiel data)}
+#'   \item{N_L1_K}{Nitrogen percent in L1 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{Ash_L1_K}{Ash in L1 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{NDF_L1_K}{Neutral Detergent Fibre in L1 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{ADF_L1_K}{Acid Detergent Fibre in L1 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{CDOMD_L1_K}{Cellulase Digestible of Organic Matter of Dry Matter in L1 harvest yield (% of dry matter) (Kiel data)}
 #'  \item{ME_L1_K}{Metabolizable Energy in L1 harvest yield (Kiel data) (MJ ME per kg of DM)}
-#'   \item{N_L2_K}{Nitrogen percent in L2 harvest yield (Kiel data)}
-#'   \item{Ash_L2_K}{Ash in L2 harvest yield (Kiel data)}
-#'   \item{NDF_L2_K}{Neutral Detergent Fibre in L2 harvest yield (Kiel data)}
-#'   \item{ADF_L2_K}{Acid Detergent Fibre in L2 harvest yield (Kiel data)}
-#'   \item{CDOMD_L2_K}{Cellulase Digestible of Organic Matter of Dry Matter in L2 harvest yield (Kiel data)}
+#'   \item{N_L2_K}{Nitrogen percent in L2 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{Ash_L2_K}{Ash in L2 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{NDF_L2_K}{Neutral Detergent Fibre in L2 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{ADF_L2_K}{Acid Detergent Fibre in L2 harvest yield (% of dry matter) (Kiel data)}
+#'   \item{CDOMD_L2_K}{Cellulase Digestible of Organic Matter of Dry Matter in L2 harvest yield (% of dry matter) (Kiel data)}
 #'   \item{ME_L2_K}{Metabolizable Energy in L2 harvest yield (Kiel data) (MJ ME per kg of DM)}
-#'  \item{N_weed_K}{Nitrogen percent in weed species harvest yield (Kiel data)}
-#'   \item{Ash_weed_K}{Ash in weed species harvest yield (Kiel data)}
-#'   \item{NDF_weed_K}{Neutral Detergent Fibre in weed species harvest yield (Kiel data)}
-#'   \item{ADF_weed_K}{Acid Detergent Fibre in weed species harvest yield (Kiel data)}
-#'   \item{CDOMD_weed_K}{Cellulase Digestible of Organic Matter of Dry Matter in weed species harvest yield (Kiel data)}
+#'  \item{N_weed_K}{Nitrogen percent in weed species harvest yield (% of dry matter) (Kiel data)}
+#'   \item{Ash_weed_K}{Ash in weed species harvest yield (% of dry matter) (Kiel data)}
+#'   \item{NDF_weed_K}{Neutral Detergent Fibre in weed species harvest yield (% of dry matter) (Kiel data)}
+#'   \item{ADF_weed_K}{Acid Detergent Fibre in weed species harvest yield (% of dry matter) (Kiel data)}
+#'   \item{CDOMD_weed_K}{Cellulase Digestible of Organic Matter of Dry Matter in weed species harvest yield (% of dry matter) (Kiel data)}
 #'  \item{ME_weed_K}{Metabolizable Energy in weed species harvest yield (Kiel data) (MJ ME per kg of DM)}
 #'   }
 #' @source 

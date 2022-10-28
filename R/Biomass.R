@@ -19,12 +19,12 @@
 #'   \item{L2}{Initial sown proportion of persistent legume}
 #'   \item{E}{Initial sown evenness}
 #'   \item{DENS}{Indicator variable: high=high level of initial sown biomass, low = low level (60%of high)}
-#'   \item{G1_Y}{Harvest Dry Matter Yield of fast-establishing grass}
-#'   \item{G2_Y}{Harvest Dry Matter Yield of persistent grass}
-#'   \item{L1_Y}{Harvest Dry Matter Yield of fast-establishing legume}
-#'   \item{L2_Y}{Harvest Dry Matter Yield of persistent legume}
-#'   \item{WEED_Y}{Harvest Dry Matter Yield of weed species}
-#'   \item{HARV_YIELD}{Total Harvest Dry Matter Yield}
+#'   \item{G1_Y}{Harvest Dry Matter Yield of fast-establishing grass (t/ha)}
+#'   \item{G2_Y}{Harvest Dry Matter Yield of persistent grass (t/ha)}
+#'   \item{L1_Y}{Harvest Dry Matter Yield of fast-establishing legume (t/ha)}
+#'   \item{L2_Y}{Harvest Dry Matter Yield of persistent legume (t/ha)}
+#'   \item{WEED_Y}{Harvest Dry Matter Yield of weed species (t/ha)}
+#'   \item{HARV_YIELD}{Total Harvest Dry Matter Yield (t/ha)}
 #'}
 #' @source 
 #' Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680.

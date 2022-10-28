@@ -23,12 +23,12 @@ A dataframe with 15372 rows and 22 variables:
 \item{L2}{Initial sown proportion of persistent legume}
 \item{E}{Initial sown evenness}
 \item{DENS}{Indicator variable: high=high level of initial sown biomass, low = low level (60\%of high)}
-\item{G1_Y}{Harvest Dry Matter Yield of fast-establishing grass}
-\item{G2_Y}{Harvest Dry Matter Yield of persistent grass}
-\item{L1_Y}{Harvest Dry Matter Yield of fast-establishing legume}
-\item{L2_Y}{Harvest Dry Matter Yield of persistent legume}
-\item{WEED_Y}{Harvest Dry Matter Yield of weed species}
-\item{HARV_YIELD}{Total Harvest Dry Matter Yield}
+\item{G1_Y}{Harvest Dry Matter Yield of fast-establishing grass (t/ha)}
+\item{G2_Y}{Harvest Dry Matter Yield of persistent grass (t/ha)}
+\item{L1_Y}{Harvest Dry Matter Yield of fast-establishing legume (t/ha)}
+\item{L2_Y}{Harvest Dry Matter Yield of persistent legume (t/ha)}
+\item{WEED_Y}{Harvest Dry Matter Yield of weed species (t/ha)}
+\item{HARV_YIELD}{Total Harvest Dry Matter Yield (t/ha)}
 }
 }
 \source{

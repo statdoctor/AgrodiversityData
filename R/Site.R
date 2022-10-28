@@ -12,7 +12,7 @@
 #'   \item{Long_Deg}{Location of site (Longitude degrees)}
 #'   \item{Long_Min}{Location of site (Longitude minutes)}
 #'   \item{Long_EW}{Location of site (Longitude East West)}
-#'   \item{Elevation}{Elevation of site}
+#'   \item{Elevation}{Elevation of site (m above sea level)}
 #'   \item{Mixture Type}{Seed mixture used: ME=Mid European, NE=Northern European,DM=Dry Mediterranean, MM=Moist Mediterranean, Other=Site specific mix}
 #'    \item{G1 Species}{Fast establishing grass species}
 #'   \item{G1 Variety}{Fast establishing grass variety}
@@ -24,12 +24,12 @@
 #'   \item{L2 Variety}{Persistent legume variety}
 #'    \item{Sowing Date}{Date the plots were established}
 #'   \item{Sowing Method}{Method of sowing – drilled / hand sown}
-#'   \item{P at sowing}{P fertilizer applied at establishment}
-#'   \item{K at sowing}{K fertilizer applied at establishment}
-#'   \item{N at sowing}{N fertilizer applied at establishment}
-#'    \item{Annual P}{P fertilizer applied per annum}
-#'    \item{Annual K}{K fertilizer applied per annum}
-#'   \item{Annual N}{N fertilizer applied per annum}
+#'   \item{P at sowing}{P fertilizer applied at establishment (Kg/ha)}
+#'   \item{K at sowing}{K fertilizer applied at establishment (Kg/ha)}
+#'   \item{N at sowing}{N fertilizer applied at establishment (Kg/ha)}
+#'    \item{Annual P}{P fertilizer applied per annum (Kg/ha)}
+#'    \item{Annual K}{K fertilizer applied per annum (Kg/ha)}
+#'   \item{Annual N}{N fertilizer applied per annum (Kg/ha)}
 #'   \item{Year 1 number of harvests}{Number of harvests taken in the year 1 of the experiment (year after sowing)}
 #'   \item{Year 2 number of harvests}{Number of harvests taken in the year 2 of the experiment}
 #'   \item{Year 3 number of harvests}{Number of harvests taken in the year 3 of the experiment (year after sowing)}

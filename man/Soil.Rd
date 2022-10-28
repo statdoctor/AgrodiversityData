@@ -8,15 +8,15 @@
 A dataframe with 32 rows and 17 variables:
 \describe{
 \item{SITE}{Site ID number}
-\item{Carbonates}{Soil Carbonates}
+\item{Carbonates}{Soil Carbonates (\%)}
 \item{EC}{Soil electrical conductivity (ds m-1)}
-\item{Silt}{Percent silt content in soil}
-\item{Silt_fine}{Percent fine silt content in soil}
-\item{Clay}{Percent clay content in soil}
-\item{Sand}{Percent sand content in soil}
-\item{OM}{Percent organic matter}
+\item{Silt}{Percent silt content in soil (\%)}
+\item{Silt_fine}{Percent fine silt content in soil (\%)}
+\item{Clay}{Percent clay content in soil (\%)}
+\item{Sand}{Percent sand content in soil (\%)}
+\item{OM}{Percent organic matter (\%)}
 \item{Soil_Type}{Soil type}
-\item{Humidity}{Percent humidity}
+\item{Humidity}{Percent humidity (\%)}
 \item{Ca}{Calcium concentration (ppm)}
 \item{K}{Potassium concentration (ppm)}
 \item{N-NO3}{Nitrate concentration (ppm)}
