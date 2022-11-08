@@ -9,9 +9,6 @@ Authors@R: c(
 Suggests: dplyr           
 Description: Combine all data sets of the agrodiversity experiment, a multi site, multi year project. 
     It is an experiment with 30 plots was established at 28 sites in 17 countries in Europe in 2002 or 2003. 
-    At each site two legume and two grass species were sown. 
-    One of the grass and one of the legume species was fast establishing and the other was slow establishing.
-    Five species-groups were used: We used a simplex design to define four monocultures and 11 mixtures of the four species.
 Details: It has datasets like biomass,biomass_summary, climate, soil density, site information and forage quality.
 License: MIT + file LICENSE
 Encoding: UTF-8

@@ -11,6 +11,12 @@ It is  useful for ecologists studying relationships between diversity and ecosys
 \section{Agrodiversity Experiment}{
 
 A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities across 17 countries.
+the study investigated whether experimental increases in plant diversity in intensively managed grassland communities can increase their resource use efficiency.
+Each site had 30 core plots, representing 15 grassland communities at two seeding densities.
+The 15 communities were comprised of four monocultures (two grasses and two legumes) and 11 four-species mixtures that varied in the relative abundance of the four species at sowing.
+Sites agreed a protocol and employed the same experimental methods with certain plot management factors, such as seeding rates and number of cuts, determined by local practice.
+The four species used at a site depended on geographical location, but the species were chosen according to four functional traits: a fast-establishing grass, a slow-establishing persistent grass, a fast-establishing legume, and a slow-establishing persistent legume.
+As the objective was to maximize yield for intensive grassland production, the species chosen were all high-yielding agronomic species. The data set contains species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
 }
 
 \section{Details of Datasets}{
