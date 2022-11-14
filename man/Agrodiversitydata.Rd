@@ -4,25 +4,40 @@
 \name{AgrodiversityData}
 \alias{AgrodiversityData}
 \title{AgrodiversityData:  Datasets of agrodiversity experiment.}
+\source{
+Data available at :\url{https://doi.org/10.6084/m9.figshare.3560352.v1}
+}
 \description{
-The package \code{AgrodiversityData} provides six datasets of Agrodiversity experiment.
+The package \code{AgrodiversityData} provides six datasets of Agrodiversity experiment introduced by Kirwan et al. (2007).
 It is  useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification.
+The package gives access to datasets for building Diversity-Interaction models (Kirwan et al. 2009), a statistical technique to investigate the effects of species diversity on community-level responses.
+The data contain community-level response variable(s), proportions for each species and additional factors such as treatments applied to the experimental plots.
 }
 \section{Agrodiversity Experiment}{
 
 A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities across 17 countries.
-the study investigated whether experimental increases in plant diversity in intensively managed grassland communities can increase their resource use efficiency.
-Each site had 30 core plots, representing 15 grassland communities at two seeding densities.
-The 15 communities were comprised of four monocultures (two grasses and two legumes) and 11 four-species mixtures that varied in the relative abundance of the four species at sowing.
-Sites agreed a protocol and employed the same experimental methods with certain plot management factors, such as seeding rates and number of cuts, determined by local practice.
-The four species used at a site depended on geographical location, but the species were chosen according to four functional traits: a fast-establishing grass, a slow-establishing persistent grass, a fast-establishing legume, and a slow-establishing persistent legume.
-As the objective was to maximize yield for intensive grassland production, the species chosen were all high-yielding agronomic species. The data set contains species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
+The study intended to see whether the experimental increases in plant diversity in intensively managed grassland communities can increase the resource use efficiency.
+Each site had 30 core plots, representing 15 grassland communities of 11 mixtures and 4 monocultures sown at two seed abundances.
+The four monoculture species consisted of two grasses and two legumes, of which one was fast establishing and the other temporally persistent.
+The 11 mixture communities varied in the relative abundance of the four species at sowing.
+All sites agreed a protocol and employed the same experimental methods with certain plot management factors, such as seeding rates and number of cuts, determined by local practice.
+The data set contains species-specific biomass measurements (yield per species and of weeds) for all harvests up to four years at 33 sites.
+More information about the  experiment can be found at (Kirwan et al. 2007)
+}
+
+\section{Analysis based on Agrodiversity Experiment}{
+
+To model the Biodiversity Ecosystem Function (BEF) relationship for a single ecosystem function based on species identities and interactions among pairs of species, Kirwan et al. (2009) introduced the Diversity-Interactions (DI) modelling approach.
+A Generalised DI model has been developed (Connolly et al. 2013) to allow the qualification of results across spatial and temporal gradients in experiments.
+As an extension of this univariate approach, Dooley et al. (2015) developed the multivariate DI model to analyse the multifunctional BEF relationship.
+Brophy et al. (2017) demonstrated the importance of the relative growth rates of competing species for community dynamics and species shift over time.
+Connolly et al. (2018) discussed how mixtures transgressively suppress weed biomass along with the relationship between weed supression and species’ relative abundance.
 }
 
 \section{Details of Datasets}{
 
 \enumerate{
-\item \code{\link{Site}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc. .
+\item \code{\link{Site}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc.
 \item \code{\link{Climate}}: Information about daily temperature and precipitation for each site.
 \item \code{\link{Soil}}: The soil characteristics and concentration of soil nutrients for each site.
 \item \code{\link{Biomass}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
@@ -40,7 +55,7 @@ As the objective was to maximize yield for intensive grassland production, the s
 \item Finn, J.A., Kirwan, L., Connolly, J., Sebastià, M.T., Helgadottir, A., Baadshaug, O.H., Bélanger, G., Black, A., Brophy, C., Collins, R.P. and Čop, J., 2013. Ecosystem function enhanced by combining four functional types of plant species in intensively managed grassland mixtures: a 3‐year continental‐scale field experiment. Journal of Applied Ecology, 50(2), pp.365-375.
 \item Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680.
 \item Dooley, Á., Isbell, F., Kirwan, L., Connolly, J., Finn, J.A. and Brophy, C., 2015. Testing the effects of diversity on ecosystem multifunctionality using a multivariate model. Ecology Letters, 18(11), pp.1242-1251.
-\item Brophy, C., Dooley, Á., Kirwan, L., Finn, J.A., McDonnell, J., Bell, T., Cadotte, M.W. and Connolly, J., 2017. Biodiversity and ecosystem function: making sense of numerous species interactions in multi‐species communities. Ecology, 98(7), pp.1771-1778.
+\item Brophy, C., Finn, J.A., Lüscher, A., Suter, M., Kirwan, L., Sebastià, M.T., Helgadóttir, Á., Baadshaug, O.H., Bélanger, G., Black, A. and Collins, R.P., 2017. Major shifts in species’ relative abundance in grassland mixtures alongside positive effects of species diversity in yield: A continental‐scale experiment. Journal of Ecology, 105(5), pp.1210-1222.
 \item Connolly, J., Sebastià, M.T., Kirwan, L., Finn, J.A., Llurba, R., Suter, M., Collins, R.P., Porqueddu, C., Helgadóttir, Á., Baadshaug, O.H. and Bélanger, G., 2018. Weed suppression greatly increased by plant diversity in intensively managed grasslands: A continental‐scale experiment. Journal of Applied Ecology, 55(2), pp.852-862.
 }
 }
@@ -68,5 +83,5 @@ As the objective was to maximize yield for intensive grassland production, the s
 
 }
 \seealso{
-Data source :\url{https://doi.org/10.6084/m9.figshare.3560352.v1}
+Package: DImodels
 }
