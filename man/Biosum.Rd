@@ -3,19 +3,28 @@
 \docType{data}
 \name{Biosum}
 \alias{Biosum}
-\title{Yearwise Yield data of the Agrodiversity experiment}
+\title{Year wise Yield data of the Agrodiversity experiment}
 \format{
-A dataframe with 92 rows and 9 variables:
+A dataframe with 3828 rows and 18 variables:
 \describe{
 \item{SITE}{Site ID number}
 \item{Country}{Country}
 \item{Year}{Year}
-\item{G1_YA}{Average harvest Dry Matter Yield per year of fast-establishing grass}
-\item{G2_YA}{Average harvest Dry Matter Yield per year of persistent grass}
-\item{L1_YA}{Average harvest Dry Matter Yield per year of fast-establishing legume }
-\item{L2_YA}{Average harvest Dry Matter Yield per year of persistent legume }
-\item{WEED_YA}{Average harvest Dry Matter Yield per year of weed species }
-\item{HARV_YA}{Average harvest Dry Matter Yield per year}
+\item{YEARN}{Experimental year number}
+\item{NH}{Number of harvests – number of times the whole plot was cut in a year}
+\item{PLOT}{Plot number as per design (1–30 = core design; 31–48 = treatment plots; 49–68 = additional plots at sites 45 and 46)}
+\item{G1}{Initial sown proportion of fast-establishing grass}
+\item{G2}{Initial sown proportion of persistent grass}
+\item{L1}{Initial sown proportion of fast-establishing legume}
+\item{L2}{Initial sown proportion of persistent legume}
+\item{E}{Initial sown evenness}
+\item{DENS}{Indicator variable: high=high level of initial sown biomass, low = low level (60\%of high)}
+\item{G1_YN}{Total harvest Dry Matter Yield per year of fast-establishing grass}
+\item{G2_YN}{Total harvest Dry Matter Yield per year of persistent grass}
+\item{L1_YN}{Total harvest Dry Matter Yield per year of fast-establishing legume }
+\item{L2_YN}{Total harvest Dry Matter Yield per year of persistent legume }
+\item{WEED_YN}{Total harvest Dry Matter Yield per year of weed species }
+\item{HARV_YIELD2}{Total harvest Dry Matter Yield per year}
 }
 }
 \source{

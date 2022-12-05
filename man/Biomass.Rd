@@ -40,6 +40,6 @@ Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Al
 Biomass
 }
 \description{
-The \code{Biomass} dataset provide information about the species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
+The \code{Biomass} dataset provides information about the species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
 }
 \keyword{datasets}
