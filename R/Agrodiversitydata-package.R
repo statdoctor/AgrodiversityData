@@ -1,6 +1,6 @@
 #' AgrodiversityData:  Datasets of agrodiversity experiment.
 #'
-#'@description The package \code{AgrodiversityData} provides six datasets of Agrodiversity experiment introduced by Kirwan et al. (2007). 
+#'@description The package \code{AgrodiversityData} provides datasets of Agrodiversity experiment introduced by Kirwan et al. (2007). 
 #'    It is  useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification.
 #'    The package gives access to datasets for building Diversity-Interaction models (Kirwan et al. 2009), a statistical technique to investigate the effects of species diversity on community-level responses.
 #'    The data contain community-level response variable(s), proportions for each species and additional factors such as treatments applied to the experimental plots.  
@@ -44,9 +44,11 @@
 #'
 #' 4. \code{\link{Biomass}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
 #' 
-#' 5. \code{\link{Forage}}: Details about forage quality.
+#' 5. \code{\link{Forage}}: Details of forage quality.
 #'
-#' 6. \code{\link{Biosum}}: Species-specific biomass measurements (yield per species and of weeds) at 33 sites summarized by year.
+#' 6. \code{\link{Biosum}}: Species-specific, weed and overall annual biomass for each site
+#' 
+#' 7. \code{\link{Climatesum}}: Annual precipitation and temperature in each site during the experiment. 
 #' 
 #'@examples 
 #'
