@@ -4,9 +4,7 @@ Title: Datasets of Agrodiversity experiment in 17 countries
 Version: 1.0
 Date: 11-10-2022
 Authors@R: c(person("Caroline", "Brophy", role = c("aut", "cre"), email = "caroline.brophy@tcd.ie"), person("Litty", "Mathew", role = "aut"), person("Silvia", "D'Angelo", role = "ctb"))
-Author: Caroline Brophy [aut, cre],
-  Litty Mathew [aut],
-  Silvia D'Angelo [ctb]
+Author: Caroline Brophy [aut, cre], Litty Mathew [aut], Silvia D'Angelo [ctb]
 Maintainer: Caroline Brophy <caroline.brophy@tcd.ie>
 Suggests: dplyr           
 Description: Combine all data sets of the agrodiversity experiment, a multi site, multi year project. 

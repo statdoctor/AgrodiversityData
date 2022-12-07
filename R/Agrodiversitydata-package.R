@@ -1,24 +1,23 @@
 #' AgrodiversityData:  Datasets of agrodiversity experiment.
 #'
 #'@description The package \code{AgrodiversityData} provides datasets of Agrodiversity experiment introduced by Kirwan et al. (2007). 
-#'    It is  useful for ecologists studying relationships between diversity and ecosystem function and agronomists interested in sustainable intensification.
-#'    The package gives access to datasets for building Diversity-Interaction models (Kirwan et al. 2009), a statistical technique to investigate the effects of species diversity on community-level responses.
-#'    The data contain community-level response variable(s), proportions for each species and additional factors such as treatments applied to the experimental plots.  
+#'    It is  useful for ecologists studying relationship between diversity and ecosystem function and agronomists interested in sustainable intensification.
+#'    The package gives access to datasets for building Diversity-Interaction (DI) models (Kirwan et al. 2009), a statistical technique to investigate the effects of species diversity on community-level responses.
+#'    The data contain community-level response variable(s), proportions for each species and additional factors like treatment used in the experimental plots.  
 #'
 #'@section Agrodiversity Experiment: 
 #'    A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities across 17 countries. 
 #'    The study intended to see whether the experimental increases in plant diversity in intensively managed grassland communities can increase the resource use efficiency. 
-#'    Each site had 30 core plots, representing 15 grassland communities of 11 mixtures and 4 monocultures sown at two seed abundances. 
+#'    Each site had 30 core plots, representing 15 grassland communities of 11 mixtures and 4 monocultures, sown at two seed abundances. 
 #'    The four monoculture species consisted of two grasses and two legumes, of which one was fast establishing and the other temporally persistent. 
 #'    The 11 mixture communities varied in the relative abundance of the four species at sowing. 
-#'    All sites agreed a protocol and employed the same experimental methods with certain plot management factors, such as seeding rates and number of cuts, determined by local practice. 
-#'    The data set contains species-specific biomass measurements (yield per species and of weeds) for all harvests up to four years at 33 sites. 
+#'    All sites agreed a protocol and employed the same experimental methods with certain plot management factors like seeding rates and number of cuts, determined by local practice. 
+#'    The data set contains species-specific biomass measurements (yield per species and of weeds) for all harvests up to four years at each site. 
 #'    More information about the  experiment can be found at (Kirwan et al. 2007)   
 #'
 #'
-#'@section Research questions addressed by the experiment
-#'
-#'The primary objectives of the agrodiversity experiment mentioned in Kirwan et al. (2014) are: 
+#'@section Research questions addressed by the experiment:
+#'    The primary objectives of the agrodiversity experiment mentioned in Kirwan et al. (2014) are: 
 #'    1. Were there yield benefits (overyielding) from diversity and, if so, did the benefits persist over three years and across sites?
 #'    2. Were the yield benefits sufficiently large for transgressive overyielding to occur?
 #'    3. Did the benefits of diversity occur and persist across the range of mixture communities used in this experiment?
@@ -42,7 +41,7 @@
 #'
 #' 3. \code{\link{Soil}}: The soil characteristics and concentration of soil nutrients for each site.
 #'
-#' 4. \code{\link{Biomass}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
+#' 4. \code{\link{Biomass}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
 #' 
 #' 5. \code{\link{Forage}}: Details of forage quality.
 #'
@@ -50,32 +49,9 @@
 #' 
 #' 7. \code{\link{Climatesum}}: Annual precipitation and temperature in each site during the experiment. 
 #' 
-#'@examples 
-#'
-#'  ## Work with Biomass dataset
-#'     library(AgrodiversityData)
-#' 
-#'  ## Load the data
-#'     data(Biomass)
-#'  
-#'  ## To see the data structure
-#'     str(Biomass)
-#'  
-#'  ## To get summary statistics of Total harvest Yield
-#'     summary(Biomass$HARV_YIELD)
-#'  
-#'  ## To check the normality of the data
-#'     qqnorm(Biomass$HARV_YIELD)
-#'  
-#'  ## To check whether mean yield is same for High and Low seed densities.
-#'     t.test(Biomass$HARV_YIELD~Biomass$DENS)
-#'
-#'
-#'@seealso Package: DImodels
-#'
 #'@source Data available at :<https://doi.org/10.6084/m9.figshare.3560352.v1>
 #'
-#' @section References:
+#'@section References:
 #' 1. Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C. and Dalmannsdottir, S., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530-539.
 #'
 #' 2.	Kirwan, L., Connolly, J., Finn, J.A., Brophy, C., Lüscher, A., Nyfeler, D. and Sebastià, M.T., 2009. Diversity–interaction modeling: estimating contributions of species identities and interactions to ecosystem function. Ecology, 90(8), pp.2032-2038.
@@ -91,7 +67,31 @@
 #' 7. Brophy, C., Finn, J.A., Lüscher, A., Suter, M., Kirwan, L., Sebastià, M.T., Helgadóttir, Á., Baadshaug, O.H., Bélanger, G., Black, A. and Collins, R.P., 2017. Major shifts in species’ relative abundance in grassland mixtures alongside positive effects of species diversity in yield: A continental‐scale experiment. Journal of Ecology, 105(5), pp.1210-1222.
 #'
 #' 8. Connolly, J., Sebastià, M.T., Kirwan, L., Finn, J.A., Llurba, R., Suter, M., Collins, R.P., Porqueddu, C., Helgadóttir, Á., Baadshaug, O.H. and Bélanger, G., 2018. Weed suppression greatly increased by plant diversity in intensively managed grasslands: A continental‐scale experiment. Journal of Applied Ecology, 55(2), pp.852-862.
+#'  
+#'@seealso Package: DImodels
+#'  
+#'@examples 
+#'
+#'  ## Work with Biomass dataset
+#'     library(AgrodiversityData)
 #' 
+#'  ## Load the data
+#'     data(Biomass)
+#'  
+#'  ## To see the data structure
+#'     str(Biomass)
+#'  
+#'  ## To get summary statistics of Total harvest Yield
+#'     summary(Biomass$HARV_YIELD)
+#'  
+#'  ## To visualize the normality of the data
+#'     qqnorm(Biomass$HARV_YIELD)
+#'  
+#'  ## To check whether median yield is same for High and Low seed densities.
+#'     test<-wilcox.test(Biomass$HARV_YIELD~Biomass$DENS)
+#'     test
+#'
+#'
 #' @docType package
 #' @name AgrodiversityData
 NULL

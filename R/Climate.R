@@ -6,15 +6,15 @@
 #'
 #' @format A dataframe with 39,712 rows and 9 variables:
 #' \describe{
-#'   \item{Site}{Site ID number}
-#'   \item{Day}{Day of data collected}
-#'   \item{Month}{Month of data collected}
-#'   \item{Year}{Year of data collected}
-#'   \item{Date}{Date}
-#'   \item{Precip}{Daily precipitation (mm/day)}
-#'   \item{air_min}{Minimum daily air temperature (°C)}
-#'   \item{air_mean}{Mean daily air temperature (°C)}
-#'   \item{air_max}{Maximum daily air temperature (°C)}
+#'   \item{SITE}{Site ID number}
+#'   \item{DAY}{Day of data collected}
+#'   \item{MONTH}{Month of data collected}
+#'   \item{YEAR}{Year of data collected}
+#'   \item{DATE}{Date of data collection}
+#'   \item{PRECIP}{Daily precipitation (mm/day)}
+#'   \item{AIR_MIN}{Minimum daily air temperature (°C)}
+#'   \item{AIR_MEAN}{Mean daily air temperature (°C)}
+#'   \item{AIR_MAX}{Maximum daily air temperature (°C)}
 #'   }
 #' @source 
 #' Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680.
