@@ -5,7 +5,7 @@
 \alias{AgrodiversityData}
 \title{AgrodiversityData:  Datasets of agrodiversity experiment.}
 \source{
-Data available at :\url{https://doi.org/10.6084/m9.figshare.3560352.v1}
+Datasets are available at :\url{https://doi.org/10.6084/m9.figshare.3560352.v1}
 }
 \description{
 The package \code{AgrodiversityData} provides datasets of Agrodiversity experiment introduced by Kirwan et al. (2007).
@@ -57,6 +57,7 @@ Connolly et al. (2018) discussed how mixtures transgressively suppress weed biom
 \item \code{\link{Forage}}: Details of forage quality.
 \item \code{\link{Biosum}}: Species-specific, weed and overall annual biomass for each site
 \item \code{\link{Climatesum}}: Annual precipitation and temperature in each site during the experiment.
+\item \code{\link{Combined}}: Combined \code{\link{Biosum}}, \code{\link{Climatesum}}, \code{\link{Soil}} and \code{\link{Site}} data of the Agrodiversity experiment.
 }
 }
 

@@ -15,7 +15,6 @@
 #'    The data set contains species-specific biomass measurements (yield per species and of weeds) for all harvests up to four years at each site. 
 #'    More information about the  experiment can be found at (Kirwan et al. 2007)   
 #'
-#'
 #'@section Research questions addressed by the experiment:
 #'    The primary objectives of the agrodiversity experiment mentioned in Kirwan et al. (2014) are: 
 #'    1. Were there yield benefits (overyielding) from diversity and, if so, did the benefits persist over three years and across sites?
@@ -24,7 +23,6 @@
 #'    4. Did both the functional traits of nitrogen acquisition and temporal development contribute to the diversity effect (the excess of mixture performance over that of the monoculture performances of component species)?
 #'    5. What were the differences in resistance to weed invasion, nutrient dynamics and forage quality among the different plant communities?
 #'    6. What were the factors affecting the stability of species composition?
-#' 
 #'
 #'@section Analysis based on Agrodiversity Experiment:
 #'  To model the Biodiversity Ecosystem Function (BEF) relationship for a single ecosystem function based on species identities and interactions among pairs of species, Kirwan et al. (2009) introduced the Diversity-Interactions (DI) modelling approach. 
@@ -47,9 +45,11 @@
 #'
 #' 6. \code{\link{Biosum}}: Species-specific, weed and overall annual biomass for each site
 #' 
-#' 7. \code{\link{Climatesum}}: Annual precipitation and temperature in each site during the experiment. 
+#' 7. \code{\link{Climatesum}}: Annual precipitation and temperature in each site during the experiment.
 #' 
-#'@source Data available at :<https://doi.org/10.6084/m9.figshare.3560352.v1>
+#' 8. \code{\link{Combined}}: Combined \code{\link{Biosum}}, \code{\link{Climatesum}}, \code{\link{Soil}} and \code{\link{Site}} data of the Agrodiversity experiment. 
+#' 
+#'@source Datasets are available at :<https://doi.org/10.6084/m9.figshare.3560352.v1>
 #'
 #'@section References:
 #' 1. Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C. and Dalmannsdottir, S., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530-539.

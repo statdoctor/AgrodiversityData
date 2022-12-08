@@ -3,7 +3,7 @@
 \docType{data}
 \name{Biosum}
 \alias{Biosum}
-\title{Year wise Yield data of the Agrodiversity experiment}
+\title{Annual yield data of the Agrodiversity experiment}
 \format{
 A dataframe with 3828 rows and 18 variables:
 \describe{
@@ -29,8 +29,6 @@ A dataframe with 3828 rows and 18 variables:
 }
 \source{
 Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680.
-
-\url{https://doi.org/10.6084/m9.figshare.3560352.v1}
 }
 \usage{
 Biosum
