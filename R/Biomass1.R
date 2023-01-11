@@ -1,6 +1,6 @@
-#' Biomass data of the Agrodiversity experiment
+#' Biomass1 data of the Agrodiversity experiment
 #'
-#'The \code{Biomass} dataset provides information about the species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
+#'The \code{Biomass1} dataset provides information about the species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
 #' @format A dataframe with 15372 rows and 22 variables:
 #' \describe{
 #'   \item{SITE}{Site ID number}
@@ -30,4 +30,4 @@
 #' Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680.
 #' 
 #'Data available at :<https://doi.org/10.6084/m9.figshare.3560352.v1>
-"Biomass"
+"Biomass1"

@@ -82,8 +82,8 @@ data_count4 <- bio9 %>%
 View(data_count4) 
 #####################################
 
-Biosum = bio9
-write.csv(Biosum,"data-raw/Biosum.csv")
-usethis::use_data(Biosum,overwrite = T)
-usethis::use_r("Biosum")
-View(Biosum)
+Biomass2 = bio9
+write.csv(Biomass2,"data-raw/Biomass2.csv")
+usethis::use_data(Biomass2,overwrite = T)
+usethis::use_r("Biomass2")
+View(Biomass2)

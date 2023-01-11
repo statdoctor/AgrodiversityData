@@ -1,21 +1,21 @@
 #' Annual yield data of the Agrodiversity experiment
 #'
 #'@description 
-#'   The \code{Biosum} dataset is a summary dataset based on\code{Biomass}. 
+#'   The \code{Biomass2} dataset is a summary dataset based on\code{Biomass1}. 
 #'    It provides annual yields for each species obtained by sum the values at each harvest within a year for each plot in a site. 
 #'    In the agrodiversity experiment, the herbage dry matter yield (t/ha) of the four sown species and pooled weed species was recorded at each harvest over a period of up to 3 years at each site where year 1 was the first full year after establishment. 
 #'    Subsamples of the yield were separated and used to estimate the yield of each species type (G1,G2,L1,L2) and pooled weed species. 
 #'    Some sites did not separate at each harvest but did measure total yield; in these cases, the harvests that were separated were used to estimate the components of each species in the accumulated annual yield before summarizing. The detailed steps are given below.
 #'
-#'@section Steps for obtaining the \code{Biosum} dataset:
-#'    1. In the \code{Biomass} dataset, created  a duplicate for HARV_YIELD and renamed it as HARV_YIELD2
+#'@section Steps for obtaining the \code{Biomass2} dataset:
+#'    1. In the \code{Biomass1} dataset, created  a duplicate for HARV_YIELD and renamed it as HARV_YIELD2
 #'    2. If WEED_Y is missing, then replace the HARV_YIELD with NA for that record.
 #'    3. After grouping the data by SITE, YEAR and PLOT, find the averages (G1_YA,G2_YA,L1_YA,L2_YA,WEED_YA and HARV_YA) respectively for each species type, weed and for total yield after removing missing data .
 #'    4. Find proportion of G1 yield (G1_Yp = G1_YA/HARV_YA) and computed the same for each species and weed.
 #'    5. If the individual species yield is missing (say G1_Y), the estimated yield G1_YN is find by multiplying the proportion (G1_Yp) with HARV_YIELD2 (the total yield for the plot, which is not separated) and did the same for rest of the species and weed.
 #'    6. Use this extrapolated data to find the annual yields by summing each harvest within each year for a plot in each site.
-#'    7. The dataset obtained in step 6 is merged with selected variables from \code{Biomass} dataset to incorporate species proportions, treatment and harvest details.
-#'    8. The missing data in \code{Biosum} is either due to missing HARV_YIELD or if all harvest details in a site are missing. 
+#'    7. The dataset obtained in step 6 is merged with selected variables from \code{Biomass1} dataset to incorporate species proportions, treatment and harvest details.
+#'    8. The missing data in \code{Biomass2} is either due to missing HARV_YIELD or if all harvest details in a site are missing. 
 #'
 #' @format A dataframe with 3828 rows and 18 variables:
 #' \describe{
@@ -41,4 +41,4 @@
 #' @source 
 #' Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680.
 #' 
-"Biosum"
+"Biomass2"

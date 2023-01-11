@@ -35,7 +35,7 @@ cli10<-left_join(cli9,cli7)
 View(cli9)
 
 
-Climatesum<-cli10
-write.csv(Climatesum,"data-raw/Climatesum.csv")
-usethis::use_data(Climatesum,overwrite = T)
-usethis::use_r("Climatesum")
+Weather2<-cli10
+write.csv(Weather2,"data-raw/Weather2.csv")
+usethis::use_data(Weather2,overwrite = T)
+usethis::use_r("Weather2")

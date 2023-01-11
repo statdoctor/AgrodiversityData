@@ -35,19 +35,19 @@
 #'  
 #' 1. \code{\link{Site}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc.
 #'
-#' 2. \code{\link{Climate}}: Information about daily temperature and precipitation for each site.
+#' 2. \code{\link{Weather1}}: Information about daily temperature and precipitation for each site.
 #'
 #' 3. \code{\link{Soil}}: The soil characteristics and concentration of soil nutrients for each site.
 #'
-#' 4. \code{\link{Biomass}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
+#' 4. \code{\link{Biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
 #' 
 #' 5. \code{\link{Forage}}: Details of forage quality.
 #'
-#' 6. \code{\link{Biosum}}: Species-specific, weed and overall annual biomass for each site
+#' 6. \code{\link{Biomass2}}: Species-specific, weed and overall annual biomass for each site
 #' 
-#' 7. \code{\link{Climatesum}}: Annual precipitation and temperature in each site during the experiment.
+#' 7. \code{\link{Weather2}}: Annual precipitation and temperature in each site during the experiment.
 #' 
-#' 8. \code{\link{Combined}}: Combined \code{\link{Biosum}}, \code{\link{Climatesum}}, \code{\link{Soil}} and \code{\link{Site}} data of the Agrodiversity experiment. 
+#' 8. \code{\link{Combined}}: Combined \code{\link{Biomass2}}, \code{\link{Weather2}}, \code{\link{Soil}} and \code{\link{Site}} data of the Agrodiversity experiment. 
 #' 
 #'@source Datasets are available at :<https://doi.org/10.6084/m9.figshare.3560352.v1>
 #'
@@ -72,25 +72,24 @@
 #'  
 #'@examples 
 #'
-#'  ## Work with Biomass dataset
+#'  ## Work with Biomass1 dataset
 #'     library(AgrodiversityData)
 #' 
 #'  ## Load the data
-#'     data(Biomass)
+#'     data(Biomass1)
 #'  
 #'  ## To see the data structure
-#'     str(Biomass)
+#'     str(Biomass1)
 #'  
 #'  ## To get summary statistics of Total harvest Yield
-#'     summary(Biomass$HARV_YIELD)
+#'     summary(Biomass1$HARV_YIELD)
 #'  
 #'  ## To visualize the normality of the data
-#'     qqnorm(Biomass$HARV_YIELD)
+#'     qqnorm(Biomass1$HARV_YIELD)
 #'  
 #'  ## To check whether median yield is same for High and Low seed densities.
-#'     test<-wilcox.test(Biomass$HARV_YIELD~Biomass$DENS)
+#'     test<-wilcox.test(Biomass1$HARV_YIELD~Biomass1$DENS)
 #'     test
-#'
 #'
 #' @docType package
 #' @name AgrodiversityData
