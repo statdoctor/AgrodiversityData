@@ -72,7 +72,7 @@ A dataframe with 7782 rows and 62 variables:
 }
 }
 \source{
-Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680.
+Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R., Čop, J., Delgado, I., De Vliegher, A., Elgersma, A., Frankow-Lindberg, B., Golinski, P., Grieu, P., Gustavsson, A.-M., Helgadottir, A., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziulienė, Z., Lunnan, T., Lüscher, A., Kurki P., Porqueddu, C.,  Sebastià, M.T., Thumm, U., Walmsley, D. and Finn, J.A, 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp.2680-2680.
 
 Dataset is available at: \url{https://doi.org/10.6084/m9.figshare.3560352.v1}
 }

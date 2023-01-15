@@ -1,44 +1,44 @@
 #' Annual yield data of the Agrodiversity experiment
 #'
 #'@description 
-#'   The \code{Biomass2} dataset is a summary dataset based on\code{Biomass1}. 
+#'   The \code{Biomass2} dataset is a summary dataset based on \code{Biomass1}. 
 #'    It provides annual yields for each species obtained by sum the values at each harvest within a year for each plot in a site. 
 #'    In the agrodiversity experiment, the herbage dry matter yield (t/ha) of the four sown species and pooled weed species was recorded at each harvest over a period of up to 3 years at each site where year 1 was the first full year after establishment. 
 #'    Subsamples of the yield were separated and used to estimate the yield of each species type (G1,G2,L1,L2) and pooled weed species. 
 #'    Some sites did not separate at each harvest but did measure total yield; in these cases, the harvests that were separated were used to estimate the components of each species in the accumulated annual yield before summarizing. The detailed steps are given below.
 #'
 #'@section Steps for obtaining the \code{Biomass2} dataset:
-#'    1. In the \code{Biomass1} dataset, created  a duplicate for HARV_YIELD and renamed it as HARV_YIELD2
-#'    2. If WEED_Y is missing, then replace the HARV_YIELD with NA for that record.
-#'    3. After grouping the data by SITE, YEAR and PLOT, find the averages (G1_YA,G2_YA,L1_YA,L2_YA,WEED_YA and HARV_YA) respectively for each species type, weed and for total yield after removing missing data .
-#'    4. Find proportion of G1 yield (G1_Yp = G1_YA/HARV_YA) and computed the same for each species and weed.
-#'    5. If the individual species yield is missing (say G1_Y), the estimated yield G1_YN is find by multiplying the proportion (G1_Yp) with HARV_YIELD2 (the total yield for the plot, which is not separated) and did the same for rest of the species and weed.
+#'    1. In the \code{Biomass1} dataset, created  a duplicate for Harv_yield and renamed it as Annual_yield
+#'    2. If Weed_y is missing, then replace the Harv_yield with NA for that record.
+#'    3. After grouping the data by SITE, Year and Plot, find averages for each species type, weed and for total yield after removing missing data .
+#'    4. Find proportion of of yield for each category.
+#'    5. If the individual species yield is missing (say G1_y), the estimated yield G1_yn is find by multiplying the proportion with Annual_yield (the total yield for the plot, which is not separated) and do the same for rest of the species and weed.
 #'    6. Use this extrapolated data to find the annual yields by summing each harvest within each year for a plot in each site.
 #'    7. The dataset obtained in step 6 is merged with selected variables from \code{Biomass1} dataset to incorporate species proportions, treatment and harvest details.
-#'    8. The missing data in \code{Biomass2} is either due to missing HARV_YIELD or if all harvest details in a site are missing. 
+#'    8. The missing data in \code{Biomass2} is either due to missing unseparated annual yield or if all harvest details in a site are missing. 
 #'
 #' @format A dataframe with 3828 rows and 18 variables:
 #' \describe{
 #'   \item{SITE}{Site ID number}
 #'   \item{Country}{Country}
 #'   \item{Year}{Year}
-#'   \item{YEARN}{Experimental year number}
-#'   \item{NH}{Number of harvests – number of times the whole plot was cut in a year}
-#'   \item{PLOT}{Plot number as per design (1–30 = core design; 31–48 = treatment plots; 49–68 = additional plots at sites 45 and 46)}
+#'   \item{Yearn}{Experimental year number}
+#'   \item{Nh}{Number of harvests – number of times the whole plot was cut in a year}
+#'   \item{Plot}{Plot number as per design (1–30 = core design; 31–48 = treatment plots; 49–68 = additional plots at sites 45 and 46)}
 #'   \item{G1}{Initial sown proportion of fast-establishing grass}
 #'   \item{G2}{Initial sown proportion of persistent grass}
 #'   \item{L1}{Initial sown proportion of fast-establishing legume}
 #'   \item{L2}{Initial sown proportion of persistent legume}
 #'   \item{E}{Initial sown evenness}
-#'   \item{DENS}{Indicator variable: high=high level of initial sown biomass, low = low level (60%of high)}
-#'   \item{G1_YN}{Annual harvest dry matter yield of fast-establishing grass}
-#'   \item{G2_YN}{Annual harvest dry matter yield of persistent grass}
-#'   \item{L1_YN}{Annual harvest dry matter yield of fast-establishing legume}
-#'   \item{L2_YN}{Annual harvest dry matter yield of persistent legume }
-#'   \item{WEED_YN}{Annual harvest dry matter yield of weed species}
-#'   \item{HARV_YIELD2}{Annual harvest dry matter yield of all species including weed yield}
+#'   \item{Dens}{Indicator variable: high=high level of initial sown biomass, low = low level (60%of high)}
+#'   \item{G1_yn}{Annual harvest dry matter yield of fast-establishing grass}
+#'   \item{G2_yn}{Annual harvest dry matter yield of persistent grass}
+#'   \item{L1_yn}{Annual harvest dry matter yield of fast-establishing legume}
+#'   \item{L2_yn}{Annual harvest dry matter yield of persistent legume }
+#'   \item{Weed_yn}{Annual harvest dry matter yield of weed species}
+#'   \item{Annual_yield}{Annual harvest dry matter yield of all species including weed yield}
 #'}
 #' @source 
-#' Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680.
+#' Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R., Čop, J., Delgado, I., De Vliegher, A., Elgersma, A., Frankow-Lindberg, B., Golinski, P., Grieu, P., Gustavsson, A.-M., Helgadottir, A., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziulienė, Z., Lunnan, T., Lüscher, A., Kurki P., Porqueddu, C.,  Sebastià, M.T., Thumm, U., Walmsley, D. and Finn, J.A, 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp.2680-2680.
 #' 
 "Biomass2"

@@ -1,5 +1,4 @@
 ## code to prepare `Biosum` dataset goes here
-
 rm(list=ls())
 biomass<-readr::read_csv("data-raw/Biomass.csv")
 View(biomass)
@@ -8,47 +7,47 @@ attach(biomass)
 
 # count the Site wise missing value in all variables
 data_count2 <- biomass %>%                                   
-  group_by(SITE) %>%
-  summarize_each(funs(sum(is.na(.))))
+group_by(SITE) %>%
+summarize_each(funs(sum(is.na(.))))
 View(data_count2) 
 
-#Create duplicate HARV_Yield to average the actual harv yield if individual yield is missing in some harvest.
+#Create duplicate Harv_yield to average the actual harv yield if individual yield is missing in some harvest.
 bio<-biomass
-bio$HARV_YIELD2<-bio$HARV_YIELD
+bio$Annual_yield<-bio$Harv_yield
 View(bio)
 
-# Replace by harv yield=NA if WEED_Y=NA 
-bio1<-bio%>%mutate(HARV_YIELD = ifelse(is.na(WEED_Y), NA, HARV_YIELD)) 
+# Replace by harv yield=NA if Weed_y=NA 
+bio1<-bio%>%mutate(Harv_yield = ifelse(is.na(Weed_y), NA, Harv_yield)) 
 View(bio1)
 
 
-#Create a new variables avg of each yield group by (site, year, plot, na.rm=T)
-bio2<-bio1%>% group_by(SITE,YEAR,PLOT)%>%mutate(G1_Ya=mean(G1_Y,na.rm = T))
-bio2<-bio2%>% group_by(SITE,YEAR,PLOT)%>%mutate(G2_Ya=mean(G2_Y,na.rm = T))
-bio2<-bio2%>% group_by(SITE,YEAR,PLOT)%>%mutate(L1_Ya=mean(L1_Y,na.rm = T))
-bio2<-bio2%>% group_by(SITE,YEAR,PLOT)%>%mutate(L2_Ya=mean(L2_Y,na.rm = T))
-bio2<-bio2%>% group_by(SITE,YEAR,PLOT)%>%mutate(WEED_Ya=mean(WEED_Y,na.rm = T))
-bio2<-bio2%>% group_by(SITE,YEAR,PLOT)%>%mutate(HARV_Ya=mean(HARV_YIELD,na.rm = T))
+#Create a new variables avg of each yield group by (site, Year, Plot, na.rm=T)
+bio2<-bio1%>% group_by(SITE,Year,Plot)%>%mutate(G1_ya=mean(G1_y,na.rm = T))
+bio2<-bio2%>% group_by(SITE,Year,Plot)%>%mutate(G2_ya=mean(G2_y,na.rm = T))
+bio2<-bio2%>% group_by(SITE,Year,Plot)%>%mutate(L1_ya=mean(L1_y,na.rm = T))
+bio2<-bio2%>% group_by(SITE,Year,Plot)%>%mutate(L2_ya=mean(L2_y,na.rm = T))
+bio2<-bio2%>% group_by(SITE,Year,Plot)%>%mutate(Weed_ya=mean(Weed_y,na.rm = T))
+bio2<-bio2%>% group_by(SITE,Year,Plot)%>%mutate(Harv_ya=mean(Harv_yield,na.rm = T))
 View(bio2)
 
 # create new proportions,avg of individual yield/Total average
-bio3<-bio2%>%mutate(G1_Yp=(G1_Ya/HARV_Ya))
-bio3<-bio3%>%mutate(G2_Yp=(G2_Ya/HARV_Ya))
-bio3<-bio3%>%mutate(L1_Yp=(L1_Ya/HARV_Ya))
-bio3<-bio3%>%mutate(L2_Yp=(L2_Ya/HARV_Ya))
-bio3<-bio3%>%mutate(WEED_Yp=(WEED_Ya/HARV_Ya))
+bio3<-bio2%>%mutate(G1_yp=(G1_ya/Harv_ya))
+bio3<-bio3%>%mutate(G2_yp=(G2_ya/Harv_ya))
+bio3<-bio3%>%mutate(L1_yp=(L1_ya/Harv_ya))
+bio3<-bio3%>%mutate(L2_yp=(L2_ya/Harv_ya))
+bio3<-bio3%>%mutate(Weed_yp=(Weed_ya/Harv_ya))
 View(bio3)
 
 ############ Create new variable to identify what happened
 # Now multiply each proportion with total yield for the missing rows (where all individual yield missing and total not missing) 
-bio4 <- bio3 %>% group_by(SITE,YEAR,PLOT) %>% mutate(G1_YN= ifelse(is.na(G1_Y),(G1_Yp*HARV_YIELD2),G1_Y))
-bio4 <- bio4 %>% group_by(SITE,YEAR,PLOT) %>% mutate(G2_YN= ifelse(is.na(G2_Y),(G2_Yp*HARV_YIELD2),G2_Y))
-bio4 <- bio4%>% group_by(SITE,YEAR,PLOT) %>% mutate(L1_YN= ifelse(is.na(L1_Y),(L1_Yp*HARV_YIELD2),L1_Y))
-bio4 <- bio4 %>% group_by(SITE,YEAR,PLOT) %>% mutate(L2_YN= ifelse(is.na(L2_Y),(L2_Yp*HARV_YIELD2),L2_Y))
-bio4 <- bio4 %>% group_by(SITE,YEAR,PLOT) %>% mutate(WEED_YN= ifelse(is.na(WEED_Y),(WEED_Yp*HARV_YIELD2),WEED_Y))
+bio4 <- bio3 %>% group_by(SITE,Year,Plot) %>% mutate(G1_yn= ifelse(is.na(G1_y),(G1_yp*Annual_yield),G1_y))
+bio4 <- bio4 %>% group_by(SITE,Year,Plot) %>% mutate(G2_yn= ifelse(is.na(G2_y),(G2_yp*Annual_yield),G2_y))
+bio4 <- bio4%>% group_by(SITE,Year,Plot) %>% mutate(L1_yn= ifelse(is.na(L1_y),(L1_yp*Annual_yield),L1_y))
+bio4 <- bio4 %>% group_by(SITE,Year,Plot) %>% mutate(L2_yn= ifelse(is.na(L2_y),(L2_yp*Annual_yield),L2_y))
+bio4 <- bio4 %>% group_by(SITE,Year,Plot) %>% mutate(Weed_yn= ifelse(is.na(Weed_y),(Weed_yp*Annual_yield),Weed_y))
 View(bio4)
 # Create the new data frame with new variables
-bio5<-bio4%>%select(SITE:DENS,G1_YN,G2_YN,L1_YN,L2_YN,WEED_YN,HARV_YIELD2)
+bio5<-bio4%>%select(SITE:Dens,G1_yn,G2_yn,L1_yn,L2_yn,Weed_yn,Annual_yield)
 View(bio5)# This is some what complete data
 
 # count the Site wise missing value in all variables
@@ -60,12 +59,12 @@ View(data_count3)
 ############################################################################
 # Now we can use bio5 data to make the biosum dataset
 
-# Sum the harvest by year per plot for each site
-bio6<-bio5%>%group_by(SITE,YEAR,PLOT)%>%summarise(across(c(G1_YN,G2_YN,L1_YN,L2_YN,WEED_YN,HARV_YIELD2),sum))%>%as.data.frame()
+# Sum the harvest by Year per Plot for each site
+bio6<-bio5%>%group_by(SITE,Year,Plot)%>%summarise(across(c(G1_yn,G2_yn,L1_yn,L2_yn,Weed_yn,Annual_yield),sum))%>%as.data.frame()
 dim(bio6)
 View(bio6)
 # Select intional variables from bio5 to attach it to the sum dataset
-bio7<-bio5%>%select(SITE:DENS,-c(HARVEST,HARVEST_DATE,TREAT,REP))
+bio7<-bio5%>%select(SITE:Dens,-c(Harvest,Harvest_dt,Treat,Rep))
 View(bio7)
 
 bio8<-unique(bio7)
@@ -77,11 +76,10 @@ View(bio9)# Final merged dataset
 
 # count the Site wise missing value in all variables
 data_count4 <- bio9 %>%                                   
-  group_by(SITE) %>%
-  summarize_each(funs(sum(is.na(.))))
+group_by(SITE) %>%
+summarize_each(funs(sum(is.na(.))))
 View(data_count4) 
 #####################################
-
 Biomass2 = bio9
 write.csv(Biomass2,"data-raw/Biomass2.csv")
 usethis::use_data(Biomass2,overwrite = T)

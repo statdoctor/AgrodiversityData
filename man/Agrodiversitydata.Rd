@@ -64,14 +64,14 @@ Connolly et al. (2018) discussed how mixtures transgressively suppress weed biom
 \section{References}{
 
 \enumerate{
-\item Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C. and Dalmannsdottir, S., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530-539.
+\item Kirwan, L., Lüscher, A., Sebastià, M.T., Finn, J.A., Collins, R.P., Porqueddu, C., Helgadottir, A., Baadshaug, O.H., Brophy, C., Coran, C., Dalmannsdóttir, S., Delgado, I., Elgersma, A., Fothergill, M., Frankow-Lindberg, B.E., Golinski, P., Grieu, P., Gustavsson, A.M., Höglind, M., Huguenin-Elie, O., Iliadis, C., Jørgensen,M., Kadziuliene, Z., Karyotis, T., Lunnan,T., Malengier, M.,  Maltoni,S., Meyer,V., Nyfeler,D.,  Nykanen-Kurki, P., Parente, J., Smit, H. J., Thumm, U. and Connolly, J., 2007. Evenness drives consistent diversity effects in intensive grassland systems across 28 European sites. Journal of Ecology, 95(3), pp.530–539.
 \item Kirwan, L., Connolly, J., Finn, J.A., Brophy, C., Lüscher, A., Nyfeler, D. and Sebastià, M.T., 2009. Diversity–interaction modeling: estimating contributions of species identities and interactions to ecosystem function. Ecology, 90(8), pp.2032-2038.
-\item Connolly, J., Bell, T., Bolger, T., Brophy, C., Carnus, T., Finn, J.A., Kirwan, L., Isbell, F., Levine, J., Lüscher, A. and Picasso, V., 2013. An improved model to predict the effects of changing biodiversity levels on ecosystem function. Journal of Ecology, 101(2), pp.344-355.
-\item Finn, J.A., Kirwan, L., Connolly, J., Sebastià, M.T., Helgadottir, A., Baadshaug, O.H., Bélanger, G., Black, A., Brophy, C., Collins, R.P. and Čop, J., 2013. Ecosystem function enhanced by combining four functional types of plant species in intensively managed grassland mixtures: a 3‐year continental‐scale field experiment. Journal of Applied Ecology, 50(2), pp.365-375.
-\item Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680.
+\item Connolly, J., Bell, T., Bolger, T., Brophy, C., Carnus, T., Finn, J.A., Kirwan, L., Isbell, F., Levine, J., Lüscher, A. and Picasso, V., Roscher, C., Sebastià, M.T. and Suter, M., 2013. An improved model to predict the effects of changing biodiversity levels on ecosystem function. Journal of Ecology, 101(2), pp.344-355.
+\item Finn, J.A., Kirwan, L., Connolly, J., Sebastià, M.T., Helgadottir, A., Baadshaug, O.H., Bélanger, G., Black, A., Brophy, C., Collins, R.P. and Čop, J., Dalmannsdóttir, S., Delgado, I., Elgersma, A., Fothergill, M., Frankow-Lindberg, B., Ghesquiere, A., Golinska, B., Golinski, P., Grieu, P., Gustavsson, A.-M., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziuliene, Z., Kurki P., Llurba, R., Lunnan, T., Porqueddu, C., Suter, M., Thumm, U. and Lüscher, A., 2013. Ecosystem function enhanced by combining four functional types of plant species in intensively managed grassland mixtures: a 3‐year continental‐scale field experiment. Journal of Applied Ecology, 50(2), pp.365-375.
+\item Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R., Čop, J., Delgado, I., De Vliegher, A., Elgersma, A., Frankow-Lindberg, B., Golinski, P., Grieu, P., Gustavsson, A.-M., Helgadottir, A., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziulienė, Z., Lunnan, T., Lüscher, A., Kurki P., Porqueddu, C.,  Sebastià, M.T., Thumm, U., Walmsley, D. and Finn, J.A, 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp.2680-2680.
 \item Dooley, Á., Isbell, F., Kirwan, L., Connolly, J., Finn, J.A. and Brophy, C., 2015. Testing the effects of diversity on ecosystem multifunctionality using a multivariate model. Ecology Letters, 18(11), pp.1242-1251.
-\item Brophy, C., Finn, J.A., Lüscher, A., Suter, M., Kirwan, L., Sebastià, M.T., Helgadóttir, Á., Baadshaug, O.H., Bélanger, G., Black, A. and Collins, R.P., 2017. Major shifts in species’ relative abundance in grassland mixtures alongside positive effects of species diversity in yield: A continental‐scale experiment. Journal of Ecology, 105(5), pp.1210-1222.
-\item Connolly, J., Sebastià, M.T., Kirwan, L., Finn, J.A., Llurba, R., Suter, M., Collins, R.P., Porqueddu, C., Helgadóttir, Á., Baadshaug, O.H. and Bélanger, G., 2018. Weed suppression greatly increased by plant diversity in intensively managed grasslands: A continental‐scale experiment. Journal of Applied Ecology, 55(2), pp.852-862.
+\item Brophy, C., Finn, J.A., Lüscher, A., Suter, M., Kirwan, L., Sebastià, M.T., Helgadóttir, Á., Baadshaug, O.H., Bélanger, G., Black, A. and Collins, R.P., Čop, J., Dalmannsdottir, S., Delgado, I., Elgersma, A., Fothergill, M., Frankow-Lindberg, B.E., Ghesquiere, A., Golinska, B., Golinski, P., Grieu, P., Gustavsson, A.-M., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziuliene, Z., Kurki P., Llurba, R., Lunnan, T., Porqueddu, C., Thumm, U. and Connolly, J., 2017. Major shifts in species’ relative abundance in grassland mixtures alongside positive effects of species diversity in yield: A continental‐scale experiment. Journal of Ecology, 105(5), pp.1210-1222.
+\item Connolly, J., Sebastià, M.T., Kirwan, L., Finn, J.A., Llurba, R., Suter, M., Collins, R.P., Porqueddu, C., Helgadóttir, Á., Baadshaug, O.H. and Bélanger, G., Black, A., Brophy, C., Čop, J., Dalmannsdóttir, S., Delgado, I., Elgersma, A., Fothergill, M., Frankow-Lindberg, B., Ghesquiere, A., Golinski, P., Grieu, P., Gustavsson, A.-M., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziuliene, Z., Lunnan, T., Kurki P., Ribas, A., Taube, F., Thumm, U., Vliegher, A. and Lüscher, A., 2018. Weed suppression greatly increased by plant diversity in intensively managed grasslands: A continental‐scale experiment. Journal of Applied Ecology, 55(2), pp.852-862.
 }
 }
 
@@ -87,13 +87,13 @@ Connolly et al. (2018) discussed how mixtures transgressively suppress weed biom
     str(Biomass1)
  
  ## To get summary statistics of Total harvest Yield
-    summary(Biomass1$HARV_YIELD)
+    summary(Biomass1$Harv_yield)
  
  ## To visualize the normality of the data
-    qqnorm(Biomass1$HARV_YIELD)
+    qqnorm(Biomass1$Harv_yield)
  
  ## To check whether median yield is same for High and Low seed densities.
-    test<-wilcox.test(Biomass1$HARV_YIELD~Biomass1$DENS)
+    test<-wilcox.test(Biomass1$Harv_yield~Biomass1$Dens)
     test
 
 }

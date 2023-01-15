@@ -5,47 +5,47 @@
 #' \describe{
 #'   \item{SITE}{Site ID number}
 #'   \item{Country}{Country}
-#'   \item{	Location}{Location of site within country}
-#'   \item{Lat_Deg}{Location of site (Latitude degrees)}
-#'   \item{Lat_Min}{Location of site (Latitude minutes)}
-#'  \item{Lat_NS}{Location of site (Latitude North South)}
-#'   \item{Long_Deg}{Location of site (Longitude degrees)}
-#'   \item{Long_Min}{Location of site (Longitude minutes)}
-#'   \item{Long_EW}{Location of site (Longitude East West)}
+#'   \item{Location}{Location of site within country}
+#'   \item{Lat_deg}{Location of site (Latitude degrees)}
+#'   \item{Lat_min}{Location of site (Latitude minutes)}
+#'  \item{Lat_ns}{Location of site (Latitude North South)}
+#'   \item{Long_deg}{Location of site (Longitude degrees)}
+#'   \item{Long_min}{Location of site (Longitude minutes)}
+#'   \item{Long_ew}{Location of site (Longitude East West)}
 #'   \item{Elevation}{Elevation of site (m above sea level)}
-#'   \item{Mixture Type}{Seed mixture used: ME=Mid European, NE=Northern European,DM=Dry Mediterranean, MM=Moist Mediterranean, Other=Site specific mix}
-#'    \item{G1 Species}{Fast establishing grass species}
-#'   \item{G1 Variety}{Fast establishing grass variety}
-#'   \item{G2 Species}{Persistent grass species}
-#'   \item{G2 Variety}{Persistent grass variety}
-#'   \item{L1 Species}{Fast establishing legume species}
-#'   \item{L1 Variety}{Fast establishing legume variety}
-#'   \item{L2 Species}{Persistent legume species}
-#'   \item{L2 Variety}{Persistent legume variety}
-#'    \item{Sowing Date}{Date the plots were established}
-#'   \item{Sowing Method}{Method of sowing – drilled / hand sown}
-#'   \item{P at sowing}{P fertilizer applied at establishment (Kg/ha)}
-#'   \item{K at sowing}{K fertilizer applied at establishment (Kg/ha)}
-#'   \item{N at sowing}{N fertilizer applied at establishment (Kg/ha)}
-#'    \item{Annual P}{P fertilizer applied per annum (Kg/ha)}
-#'    \item{Annual K}{K fertilizer applied per annum (Kg/ha)}
-#'   \item{Annual N}{N fertilizer applied per annum (Kg/ha)}
-#'   \item{Year 1 number of harvests}{Number of harvests taken in the year 1 of the experiment (year after sowing)}
-#'   \item{Year 2 number of harvests}{Number of harvests taken in the year 2 of the experiment}
-#'   \item{Year 3 number of harvests}{Number of harvests taken in the year 3 of the experiment (year after sowing)}
-#'   \item{Year 4 number of harvests}{Number of harvests taken in the year 4 of the experiment}
-#'   \item{Harvest Height}{Cutting height when taking harvests (cm)}
-#'   \item{Method of separation}{Method of selecting subsample of biomass for separation into species components}
-#'   \item{Plot Size}{Size of plots (m²)}
-#'   \item{Area Sampled for Total Yield}{Area within plot that was sampled for total aboveground biomass (m²)}
-#'   \item{Area Sampled for Composition}{Area within plot that was sampled for separation into species components in m² (if fixed quadrat method was used)}
-#'   \item{Harvesting Method}{Method used to harvest biomass (manually or by machine)}
-#'   \item{Treatment details}{Details of treatment(s) applied (where relevant)}
-#'   \item{Cleaning cut date}{Date of cleaning cut (if any)}
-#'   \item{Weeding details}{Details of any weeding undertaken during establishment}
+#'   \item{Mixture_type}{Seed mixture used: ME=Mid European, NE=Northern European,DM=Dry Mediterranean, MM=Moist Mediterranean, Other=Site specific mix}
+#'  \item{G1_species}{Fast establishing grass species}
+#'   \item{G1_variety}{Fast establishing grass variety}
+#'   \item{G2_species}{Persistent grass species}
+#'   \item{G2_variety}{Persistent grass variety}
+#'   \item{L1_species}{Fast establishing legume species}
+#'   \item{L1_variety}{Fast establishing legume variety}
+#'   \item{L2_species}{Persistent legume species}
+#'   \item{L2_variety}{Persistent legume variety}
+#'    \item{Sowing_date}{Date the plots were established}
+#'   \item{Sowing_method}{Method of sowing – drilled / hand sown}
+#'   \item{P_sown}{P fertilizer applied at establishment (Kg/ha)}
+#'   \item{K_sown}{K fertilizer applied at establishment (Kg/ha)}
+#'   \item{N_sown}{N fertilizer applied at establishment (Kg/ha)}
+#'    \item{P_annual}{P fertilizer applied per annum (Kg/ha)}
+#'    \item{K_annual}{K fertilizer applied per annum (Kg/ha)}
+#'   \item{N_annual}{N fertilizer applied per annum (Kg/ha)}
+#'   \item{Year1_harv}{Number of harvests taken in the year 1 of the experiment (year after sowing)}
+#'   \item{Year2_harv}{Number of harvests taken in the year 2 of the experiment}
+#'   \item{Year3_harv}{Number of harvests taken in the year 3 of the experiment (year after sowing)}
+#'   \item{Year4_harv}{Number of harvests taken in the year 4 of the experiment}
+#'   \item{Harvest_ht}{Cutting height when taking harvests (cm)}
+#'   \item{Sep_method}{Method of selecting subsample of biomass for separation into species components}
+#'   \item{Plot_size}{Size of plots (m²)}
+#'   \item{Area_yield}{Area within plot that was sampled for total aboveground biomass (m²)}
+#'   \item{Area_composition}{Area within plot that was sampled for separation into species components in m² (if fixed quadrat method was used)}
+#'   \item{Harvest_method}{Method used to harvest biomass (manually or by machine)}
+#'   \item{Treatment_details}{Details of treatment(s) applied (where relevant)}
+#'   \item{Cleaning_cut_date}{Date of cleaning cut (if any)}
+#'   \item{Weeding_details}{Details of any weeding undertaken during establishment}
 #'}
 #' @source 
-#' Laura Kirwan, John Connolly, Caroline Brophy, Ole Baadshaug, Gilles Belanger, Alistair Black, Tim Carnus, Rosemary Collins, Jure Čop, Ignacio Delgado, Alex De Vliegher, Anjo Elgersma, Bodil Frankow-Lindberg, Piotr Golinski, Philippe Grieu, Anne-Maj Gustavsson, Áslaug Helgadóttir, Mats Höglind, Olivier Huguenin-Elie, Marit Jørgensen, Žydrė Kadžiulienė, Tor Lunnan, Andreas Lüscher, Päivi Kurki, Claudio Porqueddu, M.-Teresa Sebastia, Ulrich Thumm, David Walmsley, John Finn. 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp. 2680-2680.
+#' Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R., Čop, J., Delgado, I., De Vliegher, A., Elgersma, A., Frankow-Lindberg, B., Golinski, P., Grieu, P., Gustavsson, A.-M., Helgadottir, A., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziulienė, Z., Lunnan, T., Lüscher, A., Kurki P., Porqueddu, C.,  Sebastià, M.T., Thumm, U., Walmsley, D. and Finn, J.A, 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp.2680-2680.
 #' 
 #' Dataset is available at: <https://doi.org/10.6084/m9.figshare.3560352.v1>
 "Site"
