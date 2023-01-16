@@ -34,10 +34,10 @@ A dataframe with 39 rows and 42 variables:
 \item{P_annual}{P fertilizer applied per annum (Kg/ha)}
 \item{K_annual}{K fertilizer applied per annum (Kg/ha)}
 \item{N_annual}{N fertilizer applied per annum (Kg/ha)}
-\item{Year1_harv_no}{Number of harvests taken in the year 1 of the experiment (year after sowing)}
-\item{Year2_harv_no}{Number of harvests taken in the year 2 of the experiment}
-\item{Year3_harv_no}{Number of harvests taken in the year 3 of the experiment (year after sowing)}
-\item{Year4_harv_no}{Number of harvests taken in the year 4 of the experiment}
+\item{Year1_harv}{Number of harvests taken in the year 1 of the experiment (year after sowing)}
+\item{Year2_harv}{Number of harvests taken in the year 2 of the experiment}
+\item{Year3_harv}{Number of harvests taken in the year 3 of the experiment (year after sowing)}
+\item{Year4_harv}{Number of harvests taken in the year 4 of the experiment}
 \item{Harvest_ht}{Cutting height when taking harvests (cm)}
 \item{Sep_method}{Method of selecting subsample of biomass for separation into species components}
 \item{Plot_size}{Size of plots (m²)}

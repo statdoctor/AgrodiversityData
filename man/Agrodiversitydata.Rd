@@ -20,8 +20,12 @@ The study intended to see whether the experimental increases in plant diversity 
 Each site had 30 core plots, representing 15 grassland communities of 11 mixtures and 4 monocultures, sown at two seed abundances.
 The four monoculture species consisted of two grasses and two legumes, of which one was fast establishing and the other temporally persistent.
 The 11 mixture communities varied in the relative abundance of the four species at sowing.
+There was a total of 1028 plots in the core experiment, with an additional 572 plots sown for additional treatments.
 All sites agreed a protocol and employed the same experimental methods with certain plot management factors like seeding rates and number of cuts, determined by local practice.
-The data set contains species-specific biomass measurements (yield per species and of weeds) for all harvests up to four years at each site.
+Two sites (45 and 46) were not part of the initial network and did not use this core design.
+They used a variation of the design. The data from these sites is included because there is high overlap in communities with those in the core design.
+Sites 45 and 46 included two-species mixtures, whereas the core design does not.
+The data set contains species-specific biomass measurements (yield per species and of weeds) for all harvests up to four years at 33 sites. Samples of harvested vegetation were also analysed for forage quality at 26 sites.
 More information about the  experiment can be found at (Kirwan et al. 2007)
 }
 
@@ -51,11 +55,11 @@ Connolly et al. (2018) discussed how mixtures transgressively suppress weed biom
 
 \enumerate{
 \item \code{\link{Site}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc.
-\item \code{\link{Weather1}}: Information about daily temperature and precipitation for each site.
 \item \code{\link{Soil}}: The soil characteristics and concentration of soil nutrients for each site.
-\item \code{\link{Biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
 \item \code{\link{Forage}}: Details of forage quality.
-\item \code{\link{Biomass2}}: Species-specific, weed and overall annual biomass for each site
+\item \code{\link{Biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
+\item \code{\link{Biomass2}}: Species-specific, weed and overall annual biomass for each site.
+\item \code{\link{Weather1}}: Information about daily temperature and precipitation for each site.
 \item \code{\link{Weather2}}: Annual precipitation and temperature in each site during the experiment.
 \item \code{\link{Combined}}: Combined \code{\link{Biomass2}}, \code{\link{Weather2}}, \code{\link{Soil}} and \code{\link{Site}} data of the Agrodiversity experiment.
 }
