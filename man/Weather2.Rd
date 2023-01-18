@@ -3,16 +3,16 @@
 \docType{data}
 \name{Weather2}
 \alias{Weather2}
-\title{Annual climate data of the Agrodiversity experiment}
+\title{Annual weather data of the Agrodiversity experiment}
 \format{
 A dataframe with 124 rows and 6 variables:
 \describe{
-\item{Site}{Site ID number}
+\item{SITE}{Site ID number}
 \item{Year}{Year of data collected}
-\item{PRECIP_S}{Total Annual precipitation (mm/year)}
-\item{AIR_MIN_A}{Minimum average annual air temperature (°C)}
-\item{AIR_MEAN_A}{Mean annual air temperature (°C)}
-\item{AIR_MAX_A}{Maximum average annual air temperature (°C)}
+\item{Precip_s}{Total Annual precipitation (mm/year)}
+\item{Air_min_a}{Minimum average annual air temperature (°C)}
+\item{Air_mean_a}{Mean annual air temperature (°C)}
+\item{Air_max_a}{Maximum average annual air temperature (°C)}
 }
 }
 \source{

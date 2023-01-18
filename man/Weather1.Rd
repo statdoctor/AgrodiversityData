@@ -3,19 +3,19 @@
 \docType{data}
 \name{Weather1}
 \alias{Weather1}
-\title{Climate data of the Agrodiversity experiment}
+\title{Weather1 data of the Agrodiversity experiment}
 \format{
 A dataframe with 39,712 rows and 9 variables:
 \describe{
 \item{SITE}{Site ID number}
-\item{DAY}{Day of data collected}
-\item{MONTH}{Month of data collected}
-\item{YEAR}{Year of data collected}
-\item{DATE}{Date of data collection}
-\item{PRECIP}{Daily precipitation (mm/day)}
-\item{AIR_MIN}{Minimum daily air temperature (°C)}
-\item{AIR_MEAN}{Mean daily air temperature (°C)}
-\item{AIR_MAX}{Maximum daily air temperature (°C)}
+\item{Day}{Day of data collected}
+\item{Month}{Month of data collected}
+\item{Year}{Year of data collected}
+\item{Date}{Date of data collection}
+\item{Precip}{Daily precipitation (mm/day)}
+\item{Air_min}{Minimum daily air temperature (°C)}
+\item{Air_mean}{Mean daily air temperature (°C)}
+\item{Air_max}{Maximum daily air temperature (°C)}
 }
 }
 \source{

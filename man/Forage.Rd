@@ -84,6 +84,6 @@ The \code{Forage} dataset provides details about forage quality per site.
 The primary forage quality analysis was carried out at the Christian-Albrechts-Universität Kiel, Kiel, Germany.
 Additional analysis for four North European sites was carried out at Agriculture and Agrifood Canada at Levis, Canada.
 In addition, N concentration of bulk samples was locally analyzed by 21 sites.
-Measurements are coded _K, _C or _L to indicate whether samples were analysed at Kiel, Canada or local laboratories.
+Measurements are coded _k, _c or _l to indicate whether samples were analysed at Kiel, Canada or local laboratories.
 }
 \keyword{datasets}
