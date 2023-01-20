@@ -1,5 +1,4 @@
 #' Annual weather data of the Agrodiversity experiment
-#'
 #'  The \code{Weather2} dataset gives annual climate information for each site during the experiment. 
 #'   It is created from \code{Weather1} dataset which has daily precipitation (mm) and daily minimum, mean and maximum (air) temperature (°C) for each site. 
 #'   From the \code{Weather1} dataset, daily precipitation values were summed and daily mean temperature values were averaged within each year for each site. 
@@ -18,5 +17,4 @@
 #'   }
 #' @source 
 #' Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R., Čop, J., Delgado, I., De Vliegher, A., Elgersma, A., Frankow-Lindberg, B., Golinski, P., Grieu, P., Gustavsson, A.-M., Helgadottir, A., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziulienė, Z., Lunnan, T., Lüscher, A., Kurki P., Porqueddu, C.,  Sebastià, M.T., Thumm, U., Walmsley, D. and Finn, J.A, 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp.2680-2680.
-#' 
 "Weather2"

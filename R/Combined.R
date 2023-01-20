@@ -1,4 +1,4 @@
-#' Combined Biosum, Climatesum and Soil and Site information data of the agrodiversity experiment
+#' Combined Biomass, Weathe, Soil and Site information data of the agrodiversity experiment
 #'
 #' The \code{Combined} dataset provides information on all harvest years for all plots in each experimental site along with climate, soil and site details.
 #' 
