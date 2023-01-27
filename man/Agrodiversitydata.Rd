@@ -62,7 +62,7 @@ Connolly et al. (2018) discussed how mixtures transgressively suppress weed biom
 \item \code{\link{Biomass2}}: Species-specific, weed and overall annual biomass for each site.
 \item \code{\link{Weather1}}: Information about daily temperature and precipitation for each site.
 \item \code{\link{Weather2}}: Annual precipitation and temperature in each site during the experiment.
-\item \code{\link{Combined}}: Combined \code{\link{Biomass2}}, \code{\link{Weather2}}, \code{\link{Soil}} and \code{\link{Site}} data of the Agrodiversity experiment.
+\item \code{\link{Combined}}: Combined \code{\link{Biomass2}}, \code{\link{Weather2}}, \code{\link{Soil}}, \code{\link{Site}} and \code{\link{Forage2}} data of the Agrodiversity experiment.
 }
 }
 

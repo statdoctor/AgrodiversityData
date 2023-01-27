@@ -53,7 +53,7 @@
 #' 
 #' 8. \code{\link{Weather2}}: Annual precipitation and temperature in each site during the experiment.
 #' 
-#' 9. \code{\link{Combined}}: Combined \code{\link{Biomass2}}, \code{\link{Weather2}}, \code{\link{Soil}} and \code{\link{Site}} data of the Agrodiversity experiment. 
+#' 9. \code{\link{Combined}}: Combined \code{\link{Biomass2}}, \code{\link{Weather2}}, \code{\link{Soil}}, \code{\link{Site}} and \code{\link{Forage2}} data of the Agrodiversity experiment. 
 #' 
 #'@source Datasets are available at :<https://doi.org/10.6084/m9.figshare.3560352.v1>
 #'

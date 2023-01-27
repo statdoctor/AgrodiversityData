@@ -30,16 +30,16 @@ Sturludóttir, E., Brophy, C., Belanger, G., Gustavsson, A.M., Jørgensen, M., L
 Forage2
 }
 \description{
-The \code{Forage2} dataset provides details about annual forage quality per site calculated based on \code{Forage1} dataset.
-The quality of the forage was measured at four sites, Iceland(a), Norway(a), Sweden and Canada, and samples were taken from every plot at every harvest, except at Iceland(a), plots with co-dominating species were omitted the first year.
+The \code{Forage2} dataset provides details about annual forage quality for sites including Iceland(a), Norway(a), Sweden and Canada.
+The samples for the analysis were taken from every plot at every harvest, except at Iceland(a), plots with co-dominating species were omitted the first year.
 In Iceland_a the nutritive values are missing for Plot 12 and 27 in year 2.
 All analyses were carried out on total yield, containing both sown and unsown species.
 The concentrations of Adf, Ndf, and N, and Ivtd were then predicted in all samples using the selected  near-infrared spectrophotometer (NIRS) calibration equations.
 Crude protein (Cp) was calculated  from the nitrogen content by multiplying N by 6.25 and in vitro cell wall digestibility (Ivcwd) was calculated using the following equation:
 \eqn{Ivcwd = 1000-((1000 – Ivtd)/(Ndf/1000))}. 
-Annual weighted averages of forage quality value for every plot were calculated as:
+Annual weighted averages of forage quality value for each plot was calculated as:
 \eqn{Fq_i= \sum_{j=1}^{h}(QM_{ij}*Y_j)/\sum_{j=1}^{h}Y_j},
 where \eqn{Fq_i} is the weighted average of forage quality value (canadian analysis) i (Adf_c,Ndf_c,Ivtd_c,Ivcwd_c and C_p), \eqn{QM_{ij}} is the quality measure for quality value \eqn{i} in the harvest \eqn{j} and \eqn{Y_j} represent yield of harvest \eqn{j}.
-More deatls about the measurement of individual quality components can be found at E. Sturludottir et al. (2014).
+More details about the measurement of individual quality components can be found at E. Sturludottir et al. (2014).
 }
 \keyword{datasets}

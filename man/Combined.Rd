@@ -5,7 +5,7 @@
 \alias{Combined}
 \title{Combined Biomass, Weathe, Soil and Site information data of the agrodiversity experiment}
 \format{
-A dataframe with 3828 rows and 48 variables:
+A dataframe with 3828 rows and 55 variables:
 \describe{
 \item{SITE}{Site ID number}
 \item{Country}{Country}
@@ -55,6 +55,13 @@ A dataframe with 3828 rows and 48 variables:
 \item{Air_mean_a}{Mean annual air temperature (°C)}
 \item{Air_min_a}{Minimum average annual air temperature (°C)}
 \item{Air_max_a}{Maximum average annual air temperature (°C)}
+\item{N_ca}{Average nitrogen percent in total harvest yield (\% of dry matter) (Canadian data)}
+\item{Ndf_ca}{Average neutral detergent fibre in total harvest yield (\% of dry matter) (Canadian data)}
+\item{Adf_ca}{Average acid detergent fibre in total harvest yield (\% of dry matter) (Canadian data)}
+\item{Ivtd_ca}{Average in vitro true digestibility in total harvest yield (Canadian data)}
+\item{Ivcwd_ca}{Average in vitro cell wall digestibility in total harvest yield (Canadian data)}
+\item{Cp_ca}{Average crude protein in total harvest yield (Canadian data)}
+\item{Fq}{Annual forage quality in total harvest yield (Canadian data)}
 }
 }
 \source{
