@@ -30,6 +30,15 @@ weath1<-weath%>%select(-Year)
 weath1
 n4<-left_join(n3,weath1,by="SITE")
 View(n4)
+#Combine n4 with annual forage quality
+Forage2<-readr::read_csv("data-raw/soil.csv")
+head(Forage2)
+n5<-left_join(n4,weath1,by="SITE")
+View(n5)
+
+
+
+
 Combined<-n4
 write.csv(Combined,"data-raw/Combined.csv")
 usethis::use_data(Combined,overwrite = T)

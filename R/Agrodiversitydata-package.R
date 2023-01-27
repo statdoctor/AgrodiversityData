@@ -41,17 +41,19 @@
 #'
 #' 2. \code{\link{Soil}}: The soil characteristics and concentration of soil nutrients for each site.
 #' 
-#' 3. \code{\link{Forage}}: Details of forage quality.
+#' 3. \code{\link{Forage1}}: Details of forage quality per harvest for each site.
+#' 
+#' 4. \code{\link{Forage2}}: Annual forage quality data per site.
 #'
-#' 4. \code{\link{Biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
+#' 5. \code{\link{Biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
 #'
-#' 5. \code{\link{Biomass2}}: Species-specific, weed and overall annual biomass for each site.
+#' 6. \code{\link{Biomass2}}: Species-specific, weed and overall annual biomass for each site.
 #' 
-#' 6. \code{\link{Weather1}}: Information about daily temperature and precipitation for each site.
+#' 7. \code{\link{Weather1}}: Information about daily temperature and precipitation for each site.
 #' 
-#' 7. \code{\link{Weather2}}: Annual precipitation and temperature in each site during the experiment.
+#' 8. \code{\link{Weather2}}: Annual precipitation and temperature in each site during the experiment.
 #' 
-#' 8. \code{\link{Combined}}: Combined \code{\link{Biomass2}}, \code{\link{Weather2}}, \code{\link{Soil}} and \code{\link{Site}} data of the Agrodiversity experiment. 
+#' 9. \code{\link{Combined}}: Combined \code{\link{Biomass2}}, \code{\link{Weather2}}, \code{\link{Soil}} and \code{\link{Site}} data of the Agrodiversity experiment. 
 #' 
 #'@source Datasets are available at :<https://doi.org/10.6084/m9.figshare.3560352.v1>
 #'

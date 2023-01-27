@@ -1,4 +1,4 @@
-SITE,Year,Precip_s,Air_mean_a,Min_a,Max_a
+SITE,Year,Precip_s,Air_mean_a,Air_min_a,Air_max_a
 1,2002,398,9.4325,-3,22.46
 1,2003,616.3,10.93945205,-6.2,32.32
 1,2004,782.8,10.34439891,-5,29.38
