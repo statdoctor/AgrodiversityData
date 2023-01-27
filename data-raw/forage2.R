@@ -66,9 +66,11 @@ bio6<-forage_a3%>%select(SITE,Country,Year,Plot,Nh)
 View(bio6)
 bio7<-left_join(bio6,bio5,by=c("SITE","Year","Plot"))
 View(bio7)
+bio8<-unique(bio7)
+View(bio8)
 
 ######################
-Forage2<-bio7[!apply(bio7 == "", 1, all),]# To remove full empty rows 
+Forage2<-bio8[!apply(bio8 == "", 1, all),]# To remove full empty rows 
 write.csv(Forage2,"data-raw/Forage2.csv")
 usethis::use_data(Forage2, overwrite = TRUE)
 #To add data documentation
