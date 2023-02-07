@@ -6,7 +6,7 @@ Date: 11-10-2022
 Authors@R: c(person("Caroline", "Brophy", role = c("aut", "cre"), email = "caroline.brophy@tcd.ie"), person("Litty", "Mathew", role = "aut"), person("Silvia", "D'Angelo", role = "ctb"))
 Author: Caroline Brophy [aut, cre], Litty Mathew [aut], Silvia D'Angelo [ctb]
 Maintainer: Caroline Brophy <caroline.brophy@tcd.ie>
-Suggests: dplyr           
+Suggests: dplyr,knitr, rmarkdown           
 Description: Combine all data sets of the agrodiversity experiment, a multi site, multi year project. 
     It is an experiment with 30 plots was established at 33 sites in 17 countries in Europe in 2002 or 2003. 
 Details: It has datasets of site information, climate details, soil details, biomass, annual biomass and forage quality.
@@ -14,6 +14,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+VignetteBuilder: knitr
 Depends: 
     R (>= 2.10)
 LazyData: true
