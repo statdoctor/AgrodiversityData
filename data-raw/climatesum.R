@@ -1,21 +1,18 @@
 ## code to prepare `Climatesum` dataset goes here
-climate_raw<-readr::read_csv("data-raw/Climate.csv")
+rm(list=ls())
+climate_raw<-read.csv("data-raw/Climate.csv")
 head(climate_raw)
 library(dplyr)
 climate_raw<-climate_raw%>% 
-mutate(Date = as.Date(Date, format = "%d-%b-%y"))
+  mutate(Date = as.Date(Date, format = "%d-%b-%y"))
 View(climate_raw)
-
-# count the Site wise missing value in all variables
-data_count2 <- climate_raw %>%                                   
-  group_by(SITE) %>%
-  summarize_each(funs(sum(is.na(.))))
-View(data_count2) 
-
-
+climate_raw$Precip<-as.numeric(Precip,na.rm = TRUE)
+climate_raw$Air_min<-as.numeric(Air_min, na.rm = TRUE)
+climate_raw$Air_mean<-as.numeric(Air_mean, na.rm = TRUE)
+climate_raw$Air_max<-as.numeric(Air_max, na.rm = TRUE)
 cli1<-climate_raw
 #Daily Precipitation values were summed within each Year for each site
-cli2<-cli1%>%group_by(SITE,Year)%>%mutate(Precip_s=sum(Precip,na.rm = T))
+cli2<-cli1%>%group_by(SITE,Year)%>% mutate(Precip_s=sum(Precip,na.rm = T))
 #Daily mean temperature values were averaged within each Year for each site. 
 cli3<-cli2%>%group_by(SITE,Year)%>%mutate(Air_mean_a=mean(Air_mean,na.rm = T))
 #The average of the lowest 10 daily minimum temperature values within each Year was also computed for each site.
@@ -35,6 +32,7 @@ cli10<-left_join(cli9,cli7)
 View(cli9)
 
 Weather2<-cli10
+Weather2<-Weather2[!apply(Weather2 == "", 1, all),]# To remove full empty rows 
 write.csv(Weather2,"data-raw/Weather2.csv")
 usethis::use_data(Weather2,overwrite = T)
 usethis::use_r("Weather2")

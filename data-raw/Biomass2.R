@@ -1,15 +1,15 @@
 ## code to prepare `Biosum` dataset goes here
 rm(list=ls())
-biomass<-readr::read_csv("data-raw/Biomass.csv")
+biomass<-read.csv("data-raw/Biomass.csv")
 View(biomass)
 library(dplyr)
 attach(biomass)
 
 # count the Site wise missing value in all variables
-data_count2 <- biomass %>%                                   
-group_by(SITE) %>%
-summarize_each(funs(sum(is.na(.))))
-View(data_count2) 
+#data_count2 <- biomass %>%                                   
+#group_by(SITE) %>%
+#summarize_each(funs(sum(is.na(.))))
+#View(data_count2) 
 
 #Create duplicate Harv_yield to average the actual harv yield if individual yield is missing in some harvest.
 bio<-biomass
@@ -51,10 +51,10 @@ bio5<-bio4%>%select(SITE:Dens,G1_yn,G2_yn,L1_yn,L2_yn,Weed_yn,Annual_yield)
 View(bio5)# This is some what complete data
 
 # count the Site wise missing value in all variables
-data_count3 <- bio5 %>%                                   
-  group_by(SITE) %>%
-  summarize_each(funs(sum(is.na(.))))
-View(data_count3) 
+#data_count3 <- bio5 %>%                                   
+  #group_by(SITE) %>%
+  #summarize_each(funs(sum(is.na(.))))
+#View(data_count3) 
 
 ############################################################################
 # Now we can use bio5 data to make the biosum dataset
@@ -74,11 +74,6 @@ View(bio8)
 bio9<-left_join(bio8,bio6)
 View(bio9)# Final merged dataset
 
-# count the Site wise missing value in all variables
-data_count4 <- bio9 %>%                                   
-group_by(SITE) %>%
-summarize_each(funs(sum(is.na(.))))
-View(data_count4) 
 #####################################
 Biomass2 = bio9
 write.csv(Biomass2,"data-raw/Biomass2.csv")

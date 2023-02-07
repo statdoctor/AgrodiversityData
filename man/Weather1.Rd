@@ -27,8 +27,6 @@ Dataset is available at: \url{https://doi.org/10.6084/m9.figshare.3560352.v1}
 Weather1
 }
 \description{
-The \code{Weather1} dataset has information about  daily climate data for each site for the duration of the experiment.
-The climate data series begins on the sowing date of the experiment at each site.
-The variables include daily temperatures and precipitation.
+The \code{Weather1} dataset has information about  daily climate data for each site for the duration of the experiment. The climate data series begins on the sowing date of the experiment at each site. The variables include daily temperatures and precipitation.
 }
 \keyword{datasets}

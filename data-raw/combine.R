@@ -1,5 +1,5 @@
 # code to prepare 'combined' dataset goes here
-# It is the combination of Biomass2, Weather2, soil and selected variables from site.
+# It is the combination of Biomass2, Weather2, soil and selected variables from site and Forage 2.
 # First select important variables from site data.
 Site<-readr::read_csv("data-raw/Site.csv")
 head(Site)
@@ -33,8 +33,8 @@ View(n4)
 #Combine n4 with annual forage quality
 Forage2<-readr::read_csv("data-raw/Forage2.csv")
 View(Forage2)
-Forage3<-Forage2%>%select(-Country,-Nh)
-n5<-left_join(n4,Forage3,by=c("SITE","Year","Plot"))
+Forage3<-Forage2%>%select(-Country)
+n5<-left_join(n4,Forage3,by=c("SITE","Year","Plot","Annual_yield"))
 View(n5)
 
 Combined<-n5

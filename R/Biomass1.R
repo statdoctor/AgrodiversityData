@@ -1,5 +1,6 @@
 #' Biomass1 data of the Agrodiversity experiment
 #'
+#'@description 
 #'The \code{Biomass1} dataset provides information about the species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
 #' @format A dataframe with 15372 rows and 22 variables:
 #' \describe{

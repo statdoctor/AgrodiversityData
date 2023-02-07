@@ -1,8 +1,7 @@
 #' Weather1 data of the Agrodiversity experiment
 #'
-#'The \code{Weather1} dataset has information about  daily climate data for each site for the duration of the experiment. 
-#'    The climate data series begins on the sowing date of the experiment at each site.
-#'    The variables include daily temperatures and precipitation.
+#'@description 
+#'   The \code{Weather1} dataset has information about  daily climate data for each site for the duration of the experiment. The climate data series begins on the sowing date of the experiment at each site. The variables include daily temperatures and precipitation.
 #'
 #' @format A dataframe with 39,712 rows and 9 variables:
 #' \describe{

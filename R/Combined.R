@@ -2,7 +2,7 @@
 #'
 #' The \code{Combined} dataset provides information on all harvest years for all plots in each experimental site along with climate, soil and site details.
 #' 
-#' @format A dataframe with 3828 rows and 55 variables:
+#' @format A dataframe with 3828 rows and 57 variables:
 #' \describe{
 #'   \item{SITE}{Site ID number}
 #'   \item{Country}{Country}
@@ -52,13 +52,15 @@
 #'   \item{Air_mean_a}{Mean annual air temperature (°C)}
 #'   \item{Air_min_a}{Minimum average annual air temperature (°C)}
 #'   \item{Air_max_a}{Maximum average annual air temperature (°C)}
-#'  \item{N_ca}{Average nitrogen percent in total harvest yield (% of dry matter) (Canadian data)}
-#'   \item{Ndf_ca}{Average neutral detergent fibre in total harvest yield (% of dry matter) (Canadian data)}
-#'   \item{Adf_ca}{Average acid detergent fibre in total harvest yield (% of dry matter) (Canadian data)}
-#'   \item{Ivtd_ca}{Average in vitro true digestibility in total harvest yield (Canadian data)}
-#'   \item{Ivcwd_ca}{Average in vitro cell wall digestibility in total harvest yield (Canadian data)}
-#'   \item{Cp_ca}{Average crude protein in total harvest yield (Canadian data)}
-#'   \item{Fq}{Annual forage quality in total harvest yield (Canadian data)}
+#'   \item{Cp_la}{Average crude protein in total harvest yield (% of dry matter) (Local laboratory analysis)}
+#'   \item{Ndf_ca}{Average neutral detergent fibre in total harvest yield (% of dry matter) (Canadian analysis)}
+#'   \item{Adf_ca}{Average acid detergent fibre in total harvest yield (% of dry matter) (Canadian analysis)}
+#'   \item{Ivtd_ca}{Average in vitro true digestibility in total harvest yield (Canadian analysis)}
+#'   \item{Ivcwd_ca}{Average in vitro cell wall digestibility in total harvest yield (Canadian analysis)}
+#'   \item{Cp_ca}{Average crude protein in total harvest yield (Canadian analysis)}
+#'   \item{Ndf_ka}{Average neutral detergent fibre in total harvest yield (% of dry matter) (Kiel analysis)}
+#'   \item{Adf_ka}{Average acid detergent fibre in total harvest yield (% of dry matter) (Kiel analysis)}
+#'   \item{Cp_ka}{Average nitrogen percent in total harvest yield (% of dry matter) (Kiel analysis)}
 #'}
 #' @source 
 #' Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R., Čop, J., Delgado, I., De Vliegher, A., Elgersma, A., Frankow-Lindberg, B., Golinski, P., Grieu, P., Gustavsson, A.-M., Helgadottir, A., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziulienė, Z., Lunnan, T., Lüscher, A., Kurki P., Porqueddu, C.,  Sebastià, M.T., Thumm, U., Walmsley, D. and Finn, J.A, 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp.2680-2680.

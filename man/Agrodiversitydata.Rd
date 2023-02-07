@@ -57,12 +57,12 @@ Connolly et al. (2018) discussed how mixtures transgressively suppress weed biom
 \item \code{\link{Site}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc.
 \item \code{\link{Soil}}: The soil characteristics and concentration of soil nutrients for each site.
 \item \code{\link{Forage1}}: Details of forage quality per harvest for each site.
-\item \code{\link{Forage2}}: Annual forage quality data per site.
+\item \code{\link{Forage2}}: Annual average forage quality for each site.
 \item \code{\link{Biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
 \item \code{\link{Biomass2}}: Species-specific, weed and overall annual biomass for each site.
 \item \code{\link{Weather1}}: Information about daily temperature and precipitation for each site.
 \item \code{\link{Weather2}}: Annual precipitation and temperature in each site during the experiment.
-\item \code{\link{Combined}}: Combined \code{\link{Biomass2}}, \code{\link{Weather2}}, \code{\link{Soil}}, \code{\link{Site}} and \code{\link{Forage2}} data of the Agrodiversity experiment.
+\item \code{\link{Combined}}: It combines \code{\link{Biomass2}}, \code{\link{Site}}, \code{\link{Soil}}, \code{\link{Weather2}} and \code{\link{Forage2}} data of the Agrodiversity experiment.
 }
 }
 
