@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
-# Getting started with **AgrodiversityData**
+## Getting started with **AgrodiversityData**
 
 ### Install and load the package
 ```{r setup}
@@ -21,10 +21,10 @@ library(AgrodiversityData)
 ```
 
 ### About the package
-The agrodiversityData package allows to access to datasets of the 3 year continental scale Agrodiversity experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities across 17 countries. It was intended to see whether the experimental increases in plant diversity can increase the grassland outcomes. 
+The agrodiversityData package provides datasets of the 3 year continental scale Agrodiversity experiment that investigated plant diversity and ecosystem functions in intensively-managed grassland communities across 17 countries. It was intended to see whether the experimental increase in plant diversity can change the grassland outcomes like total biomass, forage quality, nitrogen yield, weed supression etc. 
 
 ### Datasets included in the DImodels package
-There are nine datasets included in the AgrodiversityData package: Site, Soil, Forage1, Forage2, Biomass1, Biomass2, Weather1, Weather2, combined. Details about each of these datasets is available in the corresponding help files. 
+There are nine datasets included in the AgrodiversityData package: Site, Soil, Forage1, Forage2, Biomass1, Biomass2, Weather1, Weather2 and combined. Details about each of them is available in the corresponding help files. 
 
 In this vignette, we will describe the Biomass1 dataset and show a worked analysis of it.
 
