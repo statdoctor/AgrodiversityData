@@ -45,7 +45,7 @@
 #' 
 #' 4. \code{\link{Forage2}}: Annual average forage quality for each site.
 #' 
-#' 5. \code{\link{Biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
+#' 5. \code{\link{biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
 #'
 #' 6. \code{\link{Biomass2}}: Species-specific, weed and overall annual biomass for each site.
 #' 
@@ -82,10 +82,10 @@
 #'     library(AgrodiversityData)
 #' 
 #'  ## Load the data
-#'     data(Biomass1)
+#'     data(Combined)
 #'  
 #'  ## To see the data structure
-#'     str(Biomass1)
+#'     str(Combined)
 #'  
 #'  ## To get summary statistics of Total harvest Yield
 #'     summary(Biomass1$Harv_yield)
