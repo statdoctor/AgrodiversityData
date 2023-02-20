@@ -58,7 +58,7 @@ Connolly et al. (2018) discussed how mixtures transgressively suppress weed biom
 \item \code{\link{Soil}}: The soil characteristics and concentration of soil nutrients for each site.
 \item \code{\link{Forage1}}: Details of forage quality per harvest for each site.
 \item \code{\link{Forage2}}: Annual average forage quality for each site.
-\item \code{\link{Biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
+\item \code{\link{biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
 \item \code{\link{Biomass2}}: Species-specific, weed and overall annual biomass for each site.
 \item \code{\link{Weather1}}: Information about daily temperature and precipitation for each site.
 \item \code{\link{Weather2}}: Annual precipitation and temperature in each site during the experiment.
@@ -86,10 +86,10 @@ Connolly et al. (2018) discussed how mixtures transgressively suppress weed biom
     library(AgrodiversityData)
 
  ## Load the data
-    data(Biomass1)
+    data(Combined)
  
  ## To see the data structure
-    str(Biomass1)
+    str(Combined)
  
  ## To get summary statistics of Total harvest Yield
     summary(Biomass1$Harv_yield)

@@ -75,8 +75,8 @@ bio9<-left_join(bio8,bio6)
 View(bio9)# Final merged dataset
 
 #####################################
-Biomass2 = bio9
-write.csv(Biomass2,"data-raw/Biomass2.csv")
-usethis::use_data(Biomass2,overwrite = T)
-usethis::use_r("Biomass2")
-View(Biomass2)
+biomass2 = bio9
+write.csv(biomass2,"data-raw/biomass2.csv")
+usethis::use_data(biomass2,overwrite = T)
+usethis::use_r("biomass2")
+View(biomass2)

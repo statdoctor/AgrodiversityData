@@ -3,9 +3,9 @@ climate_raw<-read.csv("data-raw/Climate.csv")
 head(climate_raw)
 library(dplyr)
 climate_raw<-climate_raw%>% 
-  mutate(Date = as.Date(Date, format = "%d-%b-%y"))
-Weather1<-climate_raw
-
-usethis::use_data(Weather1,overwrite = T)
-usethis::use_r("Weather1")
+  mutate(date = as.Date(date, format = "%d-%b-%y"))
+weather1<-climate_raw
+write.csv(weather1,"data-raw/weather1.csv")
+usethis::use_data(weather1,overwrite = T)
+usethis::use_r("weather1")
 
