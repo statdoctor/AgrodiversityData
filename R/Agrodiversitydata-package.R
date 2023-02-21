@@ -37,7 +37,7 @@
 #'
 #' @section Details of Datasets: 
 #'  
-#' 1. \code{\link{site}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc.
+#' 1. \code{\link{site_info}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc.
 #'
 #' 2. \code{\link{soil}}: The soil characteristics and concentration of soil nutrients for each site.
 #' 
@@ -53,7 +53,7 @@
 #' 
 #' 8. \code{\link{weather2}}: Annual precipitation and temperature in each site during the experiment.
 #' 
-#' 9. \code{\link{combined}}: It combines \code{\link{biomass2}}, \code{\link{site}}, \code{\link{soil}}, \code{\link{weather2}} and \code{\link{forage2}} data of the Agrodiversity experiment. 
+#' 9. \code{\link{combined}}: It combines \code{\link{biomass2}}, \code{\link{site_info}}, \code{\link{soil}}, \code{\link{weather2}} and \code{\link{forage2}} data of the Agrodiversity experiment. 
 #' 
 #'@source Datasets are available at :<https://doi.org/10.6084/m9.figshare.3560352.v1>
 #'
@@ -88,13 +88,13 @@
 #'     str(combined)
 #'  
 #'  ## To get summary statistics of Total harvest Yield
-#'     summary(biomass1$harv_yield)
+#'     summary(combined$harv_yield)
 #'  
 #'  ## To visualize the normality of the data
-#'     qqnorm(biomass1$harv_yield)
+#'     qqnorm(combined$harv_yield)
 #'  
 #'  ## To check whether median yield is same for High and Low seed densities.
-#'     test<-wilcox.test(biomass1$harv_yield~biomass1$dens)
+#'     test<-wilcox.test(combined$an_yield~combined$dens)
 #'     test
 #'
 #' @docType package
