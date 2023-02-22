@@ -5,7 +5,7 @@
 #'     The primary forage quality analysis was carried out at the Christian-Albrechts-Universität Kiel, Kiel, Germany.
 #'     Additional analysis for four North European sites was carried out at Agriculture and Agrifood Canada at Levis, Canada. 
 #'     In addition, N concentration of bulk samples was locally analyzed by 21 sites. 
-#'     Measurements are coded _k, _c or _l to indicate whether samples were analysed at Kiel, Canada or local laboratories. More details regarding the measurement of nutritive values are provided in E. Sturludottir et al. (2014).
+#'     Measurements are coded _K, _C or _l to indicate whether samples were analysed at Kiel, Canada or local laboratories. More details regarding the measurement of nutritive values are provided in E. Sturludottir et al. (2014).
 #'    The missing data corresponds to the sites which did not perform the forage quality analysis. 
 #'
 #' @format A dataframe with 7782 rows and 62 variables:

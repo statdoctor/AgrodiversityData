@@ -1,36 +1,36 @@
 #'  Annual forage quality data of the Agrodiversity experiment 
 #'@description 
-#'  The \code{Forage2} dataset provides details about annual forage quality for sites including Iceland(a), Norway(a), Sweden and Canada. 
+#'  The \code{forage2} dataset provides details about annual forage quality for sites including Iceland(a), Norway(a), Sweden and Canada. 
 #'  The samples for the analysis were taken from every plot at every harvest, except at Iceland(a), plots with co-dominating species were omitted the first year. 
 #'  In Iceland_a the nutritive values are missing for Plot 12 and 27 in year 2.
 #'  All analyses were carried out on total yield, containing both sown and unsown species.    
-#'  The concentrations of Adf, Ndf, and N, and Ivtd were then predicted in all samples using the selected  near-infrared spectrophotometer (NIRS) calibration equations. 
-#'  Crude protein (Cp) was calculated  from the nitrogen content by multiplying N by 6.25.
+#'  The concentrations of ADF, NDF, and N, IVTD and IVCWD were then predicted in all samples using the selected  near-infrared spectrophotometer (NIRS) calibration equations. 
+#'  Crude protein (CP) was calculated  from the nitrogen content by multiplying N by 6.25.
 #'  Annual weighted averages of forage quality value for each plot was calculated as: 
 #'  \eqn{Qv_i= \sum_{j=1}^{h}(QM_{ij}*Y_j)/\sum_{j=1}^{h}Y_j}, 
-#'  where \eqn{Qv_i} is the weighted average of forage quality value i (Adf,Ndf,Ivtd,Ivcwd and Cp), \eqn{QM_{ij}} is the quality measure for quality value \eqn{i} in the harvest \eqn{j} and \eqn{Y_j} represent yield of harvest \eqn{j}. 
+#'  where \eqn{Qv_i} is the weighted average of forage quality value i (ADF,NDF,IVTD,IVCWD and CP), \eqn{QM_{ij}} is the quality measure for quality value \eqn{i} in the harvest \eqn{j} and \eqn{Y_j} represent yield of harvest \eqn{j}. 
 #'  More details about the measurement of each quality value can be found at E. Sturludottir et al. (2014).
 #'
 #' @format A dataframe with 2134 rows and 14 variables:
 #' \describe{
-#'   \item{SITE}{Site ID number}
-#'   \item{Country}{Country}
-#'   \item{Year}{Year}
-#'   \item{Plot}{Plot number as per design (1–30 = core design; 31–48 = treatment plots; 49–68 = additional plots at sites 45 and 46)}
-#'   \item{Annual_yield}{Annual yield for each plot (% of dry matter)}
-#'   \item{Cp_la}{Average crude protein in total harvest yield (% of dry matter) (Local laboratory analysis)}
-#'   \item{Ndf_ca}{Average neutral detergent fibre in total harvest yield (% of dry matter) (Canadian analysis)}
-#'   \item{Adf_ca}{Average acid detergent fibre in total harvest yield (% of dry matter) (Canadian analysis)}
-#'   \item{Ivtd_ca}{Average in vitro true digestibility in total harvest yield (Canadian analysis)}
-#'   \item{Ivcwd_ca}{Average in vitro cell wall digestibility in total harvest yield (Canadian analysis)}
-#'   \item{Cp_ca}{Average crude protein in total harvest yield (Canadian analysis)}
-#'   \item{Ndf_ka}{Average neutral detergent fibre in total harvest yield (% of dry matter) (Kiel analysis)}
-#'   \item{Adf_ka}{Average acid detergent fibre in total harvest yield (% of dry matter) (Kiel analysis)}
-#'   \item{Cp_ka}{Average nitrogen percent in total harvest yield (% of dry matter) (Kiel analysis)}
+#'   \item{site}{Site ID number}
+#'   \item{country}{Country}
+#'   \item{year}{Year}
+#'   \item{plot}{Plot number as per design (1–30 = core design; 31–48 = treatment plots; 49–68 = additional plots at sites 45 and 46)}
+#'   \item{an_yield}{Annual yield for each plot (% of dry matter)}
+#'   \item{an_CP_l}{Average crude protein in total harvest yield (% of dry matter) (Local laboratory analysis)}
+#'   \item{an_NDF_C}{Average neutral detergent fibre in total harvest yield (% of dry matter) (Canadian analysis)}
+#'   \item{an_ADF_C}{Average acid detergent fibre in total harvest yield (% of dry matter) (Canadian analysis)}
+#'   \item{an_IVTD_C}{Average in vitro true digestibility in total harvest yield (Canadian analysis)}
+#'   \item{an_IVCWD_C}{Average in vitro cell wall digestibility in total harvest yield (Canadian analysis)}
+#'   \item{an_CP_C}{Average crude protein in total harvest yield (Canadian analysis)}
+#'   \item{an_NDF_K}{Average neutral detergent fibre in total harvest yield (% of dry matter) (Kiel analysis)}
+#'   \item{an_ADF_K}{Average acid detergent fibre in total harvest yield (% of dry matter) (Kiel analysis)}
+#'   \item{an_CP_K}{Average nitrogen percent in total harvest yield (% of dry matter) (Kiel analysis)}
 #'}
 #' @source 
 #' Kirwan, L., Connolly, J., Brophy, C., Baadshaug, O.H., Belanger, G., Black, A., Carnus, T., Collins, R., Čop, J., Delgado, I., De Vliegher, A., Elgersma, A., Frankow-Lindberg, B., Golinski, P., Grieu, P., Gustavsson, A.-M., Helgadottir, A., Höglind, M., Huguenin-Elie, O., Jørgensen, M., Kadziulienė, Z., Lunnan, T., Lüscher, A., Kurki P., Porqueddu, C.,  Sebastià, M.T., Thumm, U., Walmsley, D. and Finn, J.A, 2014. The Agrodiversity Experiment: three years of data from a multisite study in intensively managed grasslands. Ecology, 95(9), pp.2680-2680.
 #'
 #' Sturludóttir, E., Brophy, C., Belanger, G., Gustavsson, A.M., Jørgensen, M., Lunnan, T. and Helgadóttir, Á., 2014. Benefits of mixing grasses and legumes for herbage yield and nutritive value in Northern Europe and Canada. Grass and forage science, 69(2), pp.229-240.
 #' 
-"Forage2"
+"forage2"
