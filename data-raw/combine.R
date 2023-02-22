@@ -1,34 +1,34 @@
 # code to prepare 'combined' dataset goes here
 # It is the combination of Biomass2, Weather2, soil and selected variables from site and Forage 2.
 # First select important variables from site data.
-Site<-readr::read_csv("data-raw/Site.csv")
-head(Site)
+site<-readr::read_csv("data-raw/site_info.csv")
+head(site)
 library(dplyr)
-attach(Site)
-site_n<-Site%>% select(SITE,Location:Long_ew,Mixture_type,Sowing_method,Sep_method)
+attach(site)
+site_n<-site%>% select(site,location:long_ew,mixture_type,sowing_method,sep_method)
 View(site_n)
-Bio<-readr::read_csv("data-raw/Biomass2.csv")
+Bio<-readr::read_csv("data-raw/biomass2.csv")
 View(Bio)
-weath<-readr::read_csv("data-raw/Weather2.csv")
+weath<-readr::read_csv("data-raw/weather2.csv")
 View(weath)
 soil<-readr::read_csv("data-raw/soil.csv")
-View(soil)
-#Combine biomass 2 and site
-n1<-left_join(Bio,site_n,by="SITE")
-View(n1)
+View(soil)#relocate(emp_id, .before = name)#To change the order of the variable
 
-#relocate(emp_id, .before = name)#To change the order of the variable
-n2<-n1%>%relocate(Location:Long_ew,.after = Country)
+
+#Combine biomass 2 and site
+n1<-left_join(Bio,site_n,by="site")
+View(n1)
+n2<-n1%>%relocate(location:long_ew,.after = country)
 View(n2)
 
 #Combine n2 with soil
-n3<-left_join(n2,soil,by="SITE")
+n3<-left_join(n2,soil,by="site")
 View(n3)
 
 #combine n3 with weather
-weath1<-weath%>%select(-Year)
+weath1<-weath%>%select(-year)
 View(weath1)
-n4<-left_join(n3,weath,by=c("SITE","Year"))
+n4<-left_join(n3,weath,by=c("site","year"))
 View(n4)
 #Combine n4 with annual forage quality
 Forage2<-readr::read_csv("data-raw/Forage2.csv")
