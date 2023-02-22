@@ -12,7 +12,7 @@
 #' \describe{
 #'   \item{site}{Site ID number}
 #'   \item{year}{Year of data collected}
-#'   \item{precip_s}{Total Annual precipitation (mm/year)}
+#'   \item{an_precip}{Total Annual precipitation (mm/year)}
 #'   \item{an_air_min}{Minimum average annual air temperature (°C)}
 #'   \item{an_air_mean}{Mean annual air temperature (°C)}
 #'   \item{an_air_max}{Maximum average annual air temperature (°C)}

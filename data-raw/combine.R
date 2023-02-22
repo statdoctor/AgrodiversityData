@@ -31,15 +31,15 @@ View(weath1)
 n4<-left_join(n3,weath,by=c("site","year"))
 View(n4)
 #Combine n4 with annual forage quality
-Forage2<-readr::read_csv("data-raw/Forage2.csv")
+Forage2<-readr::read_csv("data-raw/forage2.csv")
 View(Forage2)
-Forage3<-Forage2%>%select(-Country)
-n5<-left_join(n4,Forage3,by=c("SITE","Year","Plot","Annual_yield"))
+Forage3<-Forage2%>%select(-country)
+n5<-left_join(n4,Forage3,by=c("site","year","plot","an_yield"))
 View(n5)
 
-Combined<-n5
-write.csv(Combined,"data-raw/Combined.csv")
-usethis::use_data(Combined,overwrite = T)
-usethis::use_r("Combined")
+combined<-n5
+write.csv(combined,"data-raw/Combined.csv")
+usethis::use_data(combined,overwrite = T)
+usethis::use_r("combined")
 
 

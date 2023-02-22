@@ -13,7 +13,7 @@ climate_raw$air_mean<-as.numeric(air_mean, na.rm = TRUE)
 climate_raw$air_max<-as.numeric(air_max, na.rm = TRUE)
 cli1<-climate_raw
 #Daily Precipitation values were summed within each Year for each site
-cli2<-cli1%>%group_by(site,year)%>% mutate(precip_s=sum(precip,na.rm = T))
+cli2<-cli1%>%group_by(site,year)%>% mutate(an_precip=sum(precip,na.rm = T))
 #Daily mean temperature values were averaged within each Year for each site. 
 cli3<-cli2%>%group_by(site,year)%>%mutate(an_air_mean=mean(air_mean,na.rm = T))
 #The average of the lowest 10 daily minimum temperature values within each Year was also computed for each site.
@@ -22,10 +22,10 @@ cli5<-cli3%>%group_by(site,year)%>%arrange(air_min)%>% slice(1:10)%>%mutate(an_a
 #average of the highest 10 daily maximum temperature values within each Year for each site.
 
 #Keep only site, Year and 3 summary variables in cli4
-cli6<-cli4%>%select(site,year,precip_s,an_air_mean,an_air_max)
+cli6<-cli4%>%select(site,year,an_precip,an_air_mean,an_air_max)
 cli7<-unique(cli6)
 View(cli7)
-cli8<-cli5%>%select(site,year,precip_s,an_air_mean,an_air_min)
+cli8<-cli5%>%select(site,year,an_precip,an_air_mean,an_air_min)
 cli9<-unique(cli8)
 View(cli9)
 # merge  cli7 to cli9 
