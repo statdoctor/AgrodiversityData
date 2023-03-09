@@ -6,6 +6,14 @@
 #'    In the agrodiversity experiment, the herbage dry matter yield (t/ha) of the four sown species and pooled weed species was recorded at each harvest over a period of up to 3 years at each site where year 1 was the first full year after establishment. 
 #'    Subsamples of the yield were separated and used to estimate the yield of each species type (g1,g2,l1,l2) and pooled weed species. 
 #'    Some sites did not separate at each harvest but did measure total yield; in these cases, the harvests that were separated were used to estimate the components of each species in the accumulated annual yield before summarizing. The detailed steps are given below.
+#' 
+#' @details 
+#'  The \code{biomass2} dataset is from a coordinated, continental-scale grassland experiment conducted in 33 sites across 17 countries. 
+#'  The experiment compared the agronomic performance of monocultures and 4-species mixtures that varied in the relative abundance of the component species at sowing.
+#'  It investigated the effects of different facets of diversity (composition, richness, relative abundance and genetic diversity) on ecosystem functions like species-specific biomass, forage quality and weed suppression. 
+#'  The coordination of this network was supported by EU COST Action 852: Quality Legume-Based Forage Systems for Contrasting Environments. 
+#'  More information about the experiment can be found at Kirwan et al. 2014; we recommend that and anyone using these data and the AgrodiversityData package should cite the aforementioned source.
+#' 
 #'
 #'@section Steps for obtaining the \code{biomass2} dataset:
 #'    1. In the \code{biomass1} dataset, created  a duplicate for harv_yield and renamed it as an_yield

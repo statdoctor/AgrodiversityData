@@ -1,7 +1,13 @@
 #' Biomass1 data of the Agrodiversity experiment
 #'
 #'@description 
-#'The \code{Biomass1} dataset provides information about the species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
+#' The \code{biomass1} dataset is from a coordinated, continental-scale grassland experiment conducted in 33 sites across 17 countries. 
+#' The experiment compared the agronomic performance of monocultures and 4-species mixtures that varied in the relative abundance of the component species at sowing.
+#' It investigated the effects of different facets of diversity (composition, richness, relative abundance and genetic diversity) on ecosystem functions like species-specific biomass, forage quality and weed suppression. 
+#' The coordination of this network was supported by EU COST Action 852: Quality Legume-Based Forage Systems for Contrasting Environments. 
+#' More information about the experiment can be found at Kirwan et al. 2014; we recommend that and anyone using these data and the AgrodiversityData package should cite the aforementioned source.
+#' The \code{Biomass1} dataset provides information about the species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at 33 sites.
+#' 
 #' @format A dataframe with 15372 rows and 22 variables:
 #' \describe{
 #'   \item{site}{Site ID number}

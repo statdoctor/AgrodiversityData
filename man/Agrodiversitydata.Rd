@@ -8,16 +8,18 @@
 Datasets are available at :\url{https://doi.org/10.6084/m9.figshare.3560352.v1}
 }
 \description{
-The package \code{AgrodiversityData} provides datasets of Agrodiversity experiment introduced by Kirwan et al. (2007).
-It is  useful for ecologists studying relationship between diversity and ecosystem function and agronomists interested in sustainable intensification.
-The package gives access to datasets for building Diversity-Interaction (DI) models (Kirwan et al. 2009), a statistical technique to investigate the effects of species diversity on community-level responses.
-The data contain community-level response variable(s), proportions for each species and additional factors like treatment used in the experimental plots.
+The package \code{AgrodiversityData} provides datasets of a coordinated, continental-scale grassland experiment conducted in 33 sites across 17 countries.
+The experiment investigated the relationship between plant diversity and ecosystem functions such as yield, forage quality and weed suppression.
+Agronomic grassland plots were established at each site and the sown species diversity and total seed density were manipulated across the plots.
+The design at each site included monocultures of each species and 4-species mixtures that varied in the relative abundance of the component species at sowing.
+The nine datasets included in the package provide the data collected in the experiment; the datasets provide the details of the experimental sites, soil characteristics and weather conditions, and record harvest yield and forage quality data.
+The biomass, forage and weather information for each site,  for both harvest level (up to 4 harvests in a year depends on site) and annual level, are included in this package.
+A combined dataset of annual-level  measurements in each site will be useful for ecologists studying relationship between diversity and ecosystem function and those who are interested in the analysis of data from agricultural grassland experiments.
+The large spatial scale of the sites provides opportunity for analyses across spatial (and temporal) scales. The package helps to facilitates investigation of the effects of different facets of diversity (composition, richness, relative abundance and genetic diversity) on selected ecosystem functions.
 }
 \section{Agrodiversity Experiment}{
 
-A coordinated, continental-scale 33 site experiment that investigated plant diversity and ecosystem function in intensively-managed grassland communities across 17 countries.
-The study intended to see whether the experimental increases in plant diversity in intensively managed grassland communities can increase the resource use efficiency.
-Each site had 30 core plots, representing 15 grassland communities of 11 mixtures and 4 monocultures, sown at two seed abundances.
+Each of the 33 participating site in the grassland experiment had 30 core plots, representing 15 grassland communities of 11 mixtures and 4 monocultures, sown at two seed abundances.
 The four monoculture species consisted of two grasses and two legumes, of which one was fast establishing and the other temporally persistent.
 The 11 mixture communities varied in the relative abundance of the four species at sowing.
 There was a total of 1028 plots in the core experiment, with an additional 572 plots sown for additional treatments.
@@ -25,13 +27,13 @@ All sites agreed a protocol and employed the same experimental methods with cert
 Two sites (45 and 46) were not part of the initial network and did not use this core design.
 They used a variation of the design. The data from these sites is included because there is high overlap in communities with those in the core design.
 Sites 45 and 46 included two-species mixtures, whereas the core design does not.
-The data set contains species-specific biomass measurements (yield per species and of weeds) for all harvests up to four years at 33 sites. Samples of harvested vegetation were also analysed for forage quality at 26 sites.
-More information about the  experiment can be found at (Kirwan et al. 2007)
+Samples of harvested vegetation were also analysed for forage quality at 26 sites.
+More information about the  experiment can be found at Kirwan et al. 2007.
 }
 
 \section{Research questions addressed by the experiment}{
 
-The primary objectives of the agrodiversity experiment mentioned in Kirwan et al. (2014) are:
+The primary objectives of the agrodiversity experiment mentioned in Kirwan et al. 2014 are:
 \enumerate{
 \item Were there yield benefits (overyielding) from diversity and, if so, did the benefits persist over three years and across sites?
 \item Were the yield benefits sufficiently large for transgressive overyielding to occur?
@@ -45,24 +47,24 @@ The primary objectives of the agrodiversity experiment mentioned in Kirwan et al
 \section{Analysis based on Agrodiversity Experiment}{
 
 To model the Biodiversity Ecosystem Function (BEF) relationship for a single ecosystem function based on species identities and interactions among pairs of species, Kirwan et al. (2009) introduced the Diversity-Interactions (DI) modelling approach.
-A Generalised DI model has been developed (Connolly et al. 2013) to allow the qualification of results across spatial and temporal gradients in experiments.
-As an extension of this univariate approach, Dooley et al. (2015) developed the multivariate DI model to analyse the multifunctional BEF relationship.
-Brophy et al. (2017) demonstrated the importance of the relative growth rates of competing species for community dynamics and species shift over time.
-Connolly et al. (2018) discussed how mixtures transgressively suppress weed biomass along with the relationship between weed supression and species’ relative abundance.
+A Generalised DI model has been developed by Connolly et al. 2013 to allow the qualification of results across spatial and temporal gradients in experiments.
+As an extension of this univariate approach, Dooley et al. 2015 developed the multivariate DI model to analyse the multifunctional BEF relationship.
+Brophy et al. 2017 demonstrated the importance of the relative growth rates of competing species for community dynamics and species shift over time.
+Connolly et al. 2018 discussed how mixtures transgressively suppress weed biomass along with the relationship between weed supression and species’ relative abundance.
 }
 
 \section{Details of Datasets}{
 
 \enumerate{
-\item \code{\link{Site}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc.
-\item \code{\link{Soil}}: The soil characteristics and concentration of soil nutrients for each site.
-\item \code{\link{Forage1}}: Details of forage quality per harvest for each site.
-\item \code{\link{Forage2}}: Annual average forage quality for each site.
+\item \code{\link{site_info}}: Information about individual sites in the experiment specifying details of country, species, treatment, harvest etc.
+\item \code{\link{soil}}: The soil characteristics and concentration of soil nutrients for each site.
+\item \code{\link{forage1}}: Details of forage quality per harvest for each site.
+\item \code{\link{forage2}}: Annual average forage quality for each site.
 \item \code{\link{biomass1}}: The species-specific biomass measurements (yield per species and of weeds) for all harvests for up to four years at at each site.
-\item \code{\link{Biomass2}}: Species-specific, weed and overall annual biomass for each site.
-\item \code{\link{Weather1}}: Information about daily temperature and precipitation for each site.
-\item \code{\link{Weather2}}: Annual precipitation and temperature in each site during the experiment.
-\item \code{\link{Combined}}: It combines \code{\link{Biomass2}}, \code{\link{Site}}, \code{\link{Soil}}, \code{\link{Weather2}} and \code{\link{Forage2}} data of the Agrodiversity experiment.
+\item \code{\link{biomass2}}: Species-specific, weed and overall annual biomass for each site.
+\item \code{\link{weather1}}: Information about daily temperature and precipitation for each site.
+\item \code{\link{weather2}}: Annual precipitation and temperature in each site during the experiment.
+\item \code{\link{combined}}: It combines \code{\link{biomass2}}, \code{\link{site_info}}, \code{\link{soil}}, \code{\link{weather2}} and \code{\link{forage2}} data of the Agrodiversity experiment.
 }
 }
 
@@ -82,26 +84,16 @@ Connolly et al. (2018) discussed how mixtures transgressively suppress weed biom
 
 \examples{
 
- ## Work with Biomass1 dataset
+ ## Work with combined dataset
     library(AgrodiversityData)
 
  ## Load the data
-    data(Combined)
+    data(combined)
  
  ## To see the data structure
-    str(Combined)
+    str(combined)
  
  ## To get summary statistics of Total harvest Yield
-    summary(Biomass1$Harv_yield)
+    summary(combined$an_yield)
  
- ## To visualize the normality of the data
-    qqnorm(Biomass1$Harv_yield)
- 
- ## To check whether median yield is same for High and Low seed densities.
-    test<-wilcox.test(Biomass1$Harv_yield~Biomass1$Dens)
-    test
-
-}
-\seealso{
-Package: DImodels
 }

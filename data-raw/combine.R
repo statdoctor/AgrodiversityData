@@ -38,7 +38,7 @@ n5<-left_join(n4,Forage3,by=c("site","year","plot","an_yield"))
 View(n5)
 
 combined<-n5
-write.csv(combined,"data-raw/Combined.csv")
+write.csv(combined,"data-raw/combined.csv")
 usethis::use_data(combined,overwrite = T)
 usethis::use_r("combined")
 
