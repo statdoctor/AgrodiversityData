@@ -47,7 +47,7 @@ bio4 <- bio4 %>% group_by(site,year,plot,rep)%>% mutate(an_l2= ifelse(is.na(l2_y
 bio4 <- bio4 %>% group_by(site,year,plot,rep)%>% mutate(an_weed= ifelse(is.na(weed_y),(weed_yp*an_yield),weed_y))
 View(bio4)
 # Create the new data frame with new variables
-bio5<-bio4%>%select(site:dens,an_g1,an_g2,an_l1,an_l2,an_weed,an_yield)
+bio5<-bio4%>%select(site:richness,an_g1,an_g2,an_l1,an_l2,an_weed,an_yield)
 View(bio5)# This is some what complete data
 
 # count the site wise missing value in all variables
@@ -64,7 +64,7 @@ bio6<-bio5%>%group_by(site,year,plot,rep)%>%summarise(across(c(an_g1,an_g2,an_l1
 dim(bio6)
 View(bio6)
 # Select intional variables from bio5 to attach it to the sum dataset
-bio7<-bio5%>%select(site:dens,-c(harvest,harvest_dt,treat))
+bio7<-bio5%>%select(site:richness,-c(harvest,harvest_dt,treat))
 View(bio7)
 
 bio8<-unique(bio7)

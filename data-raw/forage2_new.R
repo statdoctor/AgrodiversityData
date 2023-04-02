@@ -48,3 +48,4 @@ usethis::use_data(forage2, overwrite = TRUE)
 #To add data documentation
 usethis::use_r("forage2")
 
+ 

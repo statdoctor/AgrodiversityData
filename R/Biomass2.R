@@ -39,6 +39,8 @@
 #'   \item{l2}{Initial sown proportion of persistent legume}
 #'   \item{e}{Initial sown evenness}
 #'   \item{dens}{Indicator variable: high=high level of initial sown biomass, low = low level (60%of high)}
+#'   \item{type}{Species type: 0=monoculture, 1=mixture}
+#'   \item{richness}{1=monoculture, 2= one species dominent mixture, 3= two species dominent mixture, 4= equi-proportional mixture}
 #'   \item{an_g1}{Annual harvest dry matter yield of fast-establishing grass}
 #'   \item{an_g2}{Annual harvest dry matter yield of persistent grass}
 #'   \item{an_l1}{Annual harvest dry matter yield of fast-establishing legume}

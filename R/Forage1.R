@@ -26,6 +26,8 @@
 #'   \item{l2}{Initial sown proportion of persistent legume}
 #'   \item{e}{Initial sown evenness}
 #'   \item{dens}{Indicator variable: high=high level of initial sown biomass, low = low level (60% of high)}
+#'   \item{type}{Species type: 0=monoculture, 1=mixture}
+#'   \item{richness}{1=monoculture, 2= one species dominent mixture, 3= two species dominent mixture, 4= equi-proportional mixture}
 #'  \item{local_n}{Indicator variable (Local lab analysis present=1, absent=0)}
 #'   \item{Kiel}{Indicator variable (Kiel bulk sample present=1 , absent=0)}
 #'   \item{Canada}{Indicator variable ( Canada bulk sample present=1 , absent=0)}

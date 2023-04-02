@@ -5,7 +5,7 @@ site<-readr::read_csv("data-raw/site_info.csv")
 head(site)
 library(dplyr)
 attach(site)
-site_n<-site%>% select(site,location:long_ew,mixture_type,sowing_method,sep_method)
+site_n<-site%>%select(site,location:long_ew,mixture_type,sowing_method,sep_method)
 View(site_n)
 Bio<-readr::read_csv("data-raw/biomass2.csv")
 View(Bio)
@@ -13,7 +13,6 @@ weath<-readr::read_csv("data-raw/weather2.csv")
 View(weath)
 soil<-readr::read_csv("data-raw/soil.csv")
 View(soil)#relocate(emp_id, .before = name)#To change the order of the variable
-
 
 #Combine biomass 2 and site
 n1<-left_join(Bio,site_n,by="site")
