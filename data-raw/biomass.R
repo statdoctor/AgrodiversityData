@@ -18,6 +18,7 @@ biomass_raw<-biomass_raw%>%mutate(richness=ifelse((biomass_raw$e == 0), 1,
 #levels(biomass_raw$type)=list(Mixture="Mix",Monoculture="Mono")
 biomass_raw$richness=factor(biomass_raw$richness)
 View(biomass_raw)
+head(biomass_raw)
 biomass_raw<-biomass_raw%>%relocate(type, .after = dens)
 biomass_raw<-biomass_raw%>%relocate(richness, .after = type)
 biomass1<-biomass_raw[!apply(biomass_raw == "", 1, all),]# To remove full empty rows 
